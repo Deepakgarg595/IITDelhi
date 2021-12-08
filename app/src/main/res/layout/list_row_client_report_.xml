@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llParentView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/padding_5"
+    android:layout_marginLeft="@dimen/padding_5"
+    android:layout_marginRight="@dimen/padding_5"
+    android:layout_marginTop="@dimen/padding_5"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ivProfile"
+            android:id="@+id/rlView"
+
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingRight="@dimen/margin_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg_white"
+            android:paddingBottom="@dimen/margin_5dp"
+            android:paddingTop="@dimen/margin_10dp"
+            android:orientation="vertical">
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textAllCaps="true"
+                android:paddingRight="@dimen/margin_5dp"
+                android:paddingLeft="@dimen/margin_5dp"
+                android:textColor="@color/primary_blue"
+                android:text="Title">
+
+            </com.app.iitdelhicampus.utility.CustomTextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingTop="@dimen/margin_5dp"
+                    android:paddingRight="@dimen/margin_5dp"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:textColor="@color/primary_blue"
+                    android:text="Designation:">
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:id="@+id/tvTypeOfIncident"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:singleLine="true"
+                    android:paddingRight="@dimen/margin_5dp"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:textColor="@color/gray_background"
+                    android:text="Loss of item">
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/margin_5dp"
+                android:orientation="horizontal">
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingRight="@dimen/margin_5dp"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:textColor="@color/primary_blue"
+                    android:text="Date:">
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:paddingRight="@dimen/margin_5dp"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:textColor="@color/gray_background"
+                    android:text="12-10-2020 5:15 PM">
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:background="@color/light_gray"></View>
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:paddingRight="@dimen/margin_5dp"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                android:textColor="@color/primary_blue"
+                android:text="Remark">
+
+            </com.app.iitdelhicampus.utility.CustomTextView>
+
+
+
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvLoaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:paddingRight="@dimen/margin_5dp"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                android:textColor="@color/primary_blue"
+                android:text="Location">
+
+            </com.app.iitdelhicampus.utility.CustomTextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivProfile"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="110dp"
+            android:scaleType="centerCrop"
+            android:layout_height="110dp">
+
+        </ImageView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:visibility="gone"
+    android:background="@color/gray"></View>
+</LinearLayout>

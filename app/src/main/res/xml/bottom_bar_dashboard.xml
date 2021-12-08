@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        activeColor="@color/primary_blue"
+        badgeBackgroundColor="@color/primary_blue"
+        barColorWhenSelected="@color/toolBarColor"
+        id="@+id/tabContacts"
+        inActiveColor="@color/light_gray"
+        title="@string/phoneList" />
+
+    <tab
+        id="@+id/tabRecents"
+        activeColor="@color/primary_blue"
+        badgeBackgroundColor="@color/primary_blue"
+        barColorWhenSelected="@color/toolBarColor"
+        inActiveColor="@color/light_gray"
+        title="@string/recents" />
+    <!--<tab-->
+    <!--id="@+id/tabSignals"-->
+    <!--title="@string/signals"-->
+    <!--icon="@drawable/signal_active"-->
+    <!--inActiveColor="@color/light_gray"-->
+    <!--activeColor="@color/primary_blue"-->
+    <!--barColorWhenSelected="@color/toolBarColor"-->
+    <!--badgeBackgroundColor="@color/primary_blue" />-->
+    <tab
+        activeColor="@color/primary_blue"
+        badgeBackgroundColor="@color/primary_blue"
+        barColorWhenSelected="@color/toolBarColor"
+        id="@+id/tabProfile"
+        inActiveColor="@color/light_gray"
+        title="@string/me" />
+
+</tabs>

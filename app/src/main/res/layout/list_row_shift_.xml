@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/llAllData"
+    android:duplicateParentState="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="@dimen/margin_2dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/padding_5"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/padding_5"
+        android:layout_height="wrap_content">
+        <com.app.iitdelhicampus.utility.CustomTextViewBold
+            android:id="@+id/tvEmpCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:padding="@dimen/padding_5"
+            android:singleLine="true"
+            android:textColor="@color/black_dark"
+            android:textSize="@dimen/margin_15"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvEmpName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/padding_5"
+                android:singleLine="true"
+                android:textColor="@color/black_dark"
+                android:textSize="@dimen/margin_15" />
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvEmpMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/padding_5"
+                android:singleLine="true"
+                android:textColor="@color/black_dark"
+                android:textSize="@dimen/margin_15" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <com.app.iitdelhicampus.utility.CustomTextView
+            android:id="@+id/tvEmpShift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textCapSentences"
+            android:padding="@dimen/padding_5"
+            android:singleLine="true"
+            android:textColor="@color/black_dark"
+            android:textSize="@dimen/margin_15" />
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/txtViewDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="View Details"
+                android:textStyle="bold"
+                android:inputType="textCapSentences"
+                android:padding="@dimen/padding_5"
+                android:singleLine="true"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/margin_15" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+   
+</LinearLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#F33B53</color>
+    <color name="colorPrimaryDark">#D5090F</color>
+    <color name="primary_blue">#384593</color>
+    <color name="signup_bg">#f6f4f5</color>
+    <color name="colorCodeIcon">#f06265</color>
+    <color name="colorInfoButton">#e16078</color>
+    <color name="colorBackgroundInfo">#CCd54661</color>
+    <color name="colorAccent">#ec3338</color>
+    <color name="colorHomeSwipe">#7b7167</color>
+    <color name="separatorLine">#c2c2c2</color>
+    <color name="tabColor">#605271</color>
+    <color name="colorAccent2">#ffe95451</color>
+    <color name="weatherBackground">#E6f05164</color>
+    <color name="countdowncircle">#ffd302</color>
+
+    <!--
+        <color name="colorAccent">#f1af25</color>
+    -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="day">#FFF22F</color>
+    <color name="night">#2e335a</color>
+    <color name="colorOffWhite">#e5e5e5</color>
+    <color name="colorLeaderBoardBackground">#eceaeb</color>
+    <!--intro screen-->
+
+    <color name="colorChatheader">#99242424</color>
+    <color name="colorChatFooter">#99000000</color>
+    <color name="colorChatGroupSelected">#3ae11e</color>
+
+    <color name="md_light_green_900">#33691E</color>
+    <color name="transparent_1">#87000000</color>
+    <color name="colorBlack28">#282828</color>
+    <color name="text_color">#b0b0b0</color>
+    <color name="btn_color">#454545</color>
+    <color name="colorBlue">#2766ff</color>
+    <color name="color_date">#fe759f</color>
+    <color name="color_time">#f56773</color>
+    <color name="color_day">#b02635</color>
+    <color name="color_location">#9e2239</color>
+    <color name="colorGray">#A9A9A9</color>
+
+
+    <color name="primary">#f0f4fd</color>
+    <color name="primary_action_mode">#f7f7f7</color>
+    <color name="primary_dark">#898686</color>
+    <color name="primary_grey_status_bar_color">#c8c9cd</color>
+    <color name="primary_light">#000000</color>
+    <color name="navigation_bar">#F1EFF0</color>
+    <color name="primary_dim">#9fbafd</color>
+    <color name="primary_trans">#55808081</color>
+    <color name="primary_grey_dark">#898686</color>
+    <color name="primary_grey">#909090</color>
+    <color name="Search_ID">#EBEBEB</color>
+
+    <color name="black_dark">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="fa_header">#1FA67A</color>
+    <color name="form_elementColor">#12B4AE</color>
+    <color name="list_separator">#12B4AE</color>
+    <color name="description">#ff777b7c</color>
+    <color name="breadcrumb_bar">#ffee493a</color>
+    <color name="previousOrder_border">#ffc3c3c3</color>
+    <color name="previousOrder_cancelIndicator">#ffee493a</color>
+    <color name="previousOrder_orderId">#ff505050</color>
+    <color name="previousOrder_orderId_title">#ff878787</color>
+    <color name="previousOrder_paidIndicator">#ff7b7b7b</color>
+    <color name="previousOrder_payableIndicator">#ff00c068</color>
+    <color name="previousOrder_trackingActiveStatus">#ff00c068</color>
+    <color name="previousOrder_trackingStatus">#ff878787</color>
+    <color name="orderConfirmation_summaryDetail">#ff606060</color>
+    <color name="OrderDetail_ItemPrice">#ff2b2b2b</color>
+    <color name="OrderDetail_sp">#ffa0a0a0</color>
+    <color name="main_fragment_container">#ffeeeeee</color>
+    <color name="orderReview_bg">#ffededed</color>
+    <color name="orderReview_breadcrumbBar">#ff363636</color>
+    <color name="orderReview_cross">#ff7f7f7f</color>
+    <color name="orderReview_mrp">#ff828282</color>
+    <color name="orderReview_orderBtn">#ff00c068</color>
+    <color name="orderReview_totalMrp">#ff2b2b2b</color>
+    <color name="checkout_activeBreadcrumb">#ff363636</color>
+    <color name="checkout_disableBreadcrumb">#ff979797</color>
+    <color name="orderDetail_existInfo">#ff676666</color>
+    <color name="orderDetail_addressLine">#ffb2b2b2</color>
+    <color name="orderDetail_addressTitle">#ff424242</color>
+    <color name="timeSlot_border">#ffe3e3e3</color>
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="mdtp_accent_color">#009688</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+    <color name="wzd_white">#FFFFFF</color>
+    <color name="wzd_appColorStatus">#96257f</color>
+    <color name="wzd_appColor">#751b63</color>
+    <color name="wzd_hdrnew">#12B4AE</color>
+    <color name="wzd_product_arrowBtn">#ffe8e8e8</color>
+    <color name="fa_list_background_normal">#FCFCFC</color>
+    <color name="fa_colorAccent">#8bc34a</color>
+    <color name="Topcolor">#40c6c8</color>
+    <color name="bar">#0a898b</color>
+    <color name="dueDate">#db0909</color>
+    <color name="stagecolor">#6109a4</color>
+    <color name="black">#404040</color>
+    <color name="green">#23cf34</color>
+    <color name="orange">#E47833</color>
+    <color name="litest_blue">#c3d5ff</color>
+    <color name="lite_blue">#4E78A0</color>
+    <color name="blue">#0000FF</color>
+    <color name="grey">#6c6c6c</color>
+    <color name="txt_gray">#9a9a9a</color>
+    <color name="grey_last_message">#757575</color>
+    <color name="gray">#dadee2</color>
+    <color name="add_photo">#C0DDFF</color>
+    <color name="time_chat">#8c8c8c</color>
+    <color name="grey_contact_panel">#f0f0f0</color>
+    <color name="red">#ff2323</color>
+    <color name="gray_btn">#232323</color>
+    <color name="light_gray">#cfd3d3</color>
+    <color name="lignt_gray_f7">#f1f1f1</color>
+    <color name="notification_detete_color">#f4e3e3</color>
+    <color name="notification_read_color">#fff1d6</color>
+    <color name="blue_txt">#63b0de</color>
+    <color name="green_indicator">#1fde1f</color>
+    <color name="blue_button_color">#3b5999</color>
+    <color name="blue_dark_txt">#007aff</color>
+    <color name="background">#F3F3F3</color>
+    <color name="gray_light_bg">#f8f8f8</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_40">#68ffffff</color>
+    <color name="transparent_dark">#abffffff</color>
+    <color name="transparent_gray">#67000000</color>
+    <color name="transparent_gray_shade_darkest">#cd000000</color>
+    <color name="transparent_gray_shade_1">#87000000</color>
+    <color name="transparent_gray_shade">#32000000</color>
+    <color name="transparent_gray_light">#23000000</color>
+    <color name="transparent_primary">#67012fa7</color>
+    <color name="gray_background">#797979</color>
+    <color name="comment_grey">#2d2c2a</color>
+    <color name="blue_sky">#37adfe</color>
+    <color name="separatr">#E2E2E2</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#8b8a8a</color>
+    <color name="highlight">#f3f3f3</color>
+    <color name="grey_border">#E5E5E5</color>
+    <color name="dark_navy_blue">#002FB9</color>
+    <color name="transparent_color_white">#99ffffff</color>
+    <color name="lighter_gray">#a3a3a3</color>
+    <color name="image_bg">#dadada</color>
+    <color name="detail_color">#f09803</color>
+    <color name="unread_notification">#fff0f2</color>
+
+
+
+    <color name="blue_green">#008080</color>
+    <color name="gold">#FFD700</color>
+    <color name="spring_bud">#A7FC00</color>
+    <color name="water_bondi_beach">#0095B6</color>
+    <color name="coral">#FF4040</color>
+    <color name="lime">#00FF00</color>
+    <color name="may_green">#4C9141</color>
+    <color name="mauveine">#EF0097</color>
+    <color name="gentianaceae_blue">#2A6478</color>
+    <color name="blue_krayola">#1F75FE</color>
+    <color name="white_blue">#00BFFF</color>
+    <color name="pink">#FF7A7A</color>
+    <color name="white_green">#A9FF80</color>
+    <color name="black_transparent_10">#10000000</color>
+    <color name="black_transparent_30">#30000000</color>
+    <color name="black_transparent_50">#50000000</color>
+    <color name="black_transparent_60">#60000000</color>
+    <color name="black_transparent_80">#80000000</color>
+
+    <color name="black_transparent_75">#BF000000</color>
+
+    <color name="white_transparent_80">#80FFFFFF</color>
+    <color name="white_transparent_90">#90FFFFFF</color>
+    <color name="white_transparent_50">#50FFFFFF</color>
+    <color name="yellow">#ffcb05</color>
+    <color name="blue_quiz">#204a9b</color>
+    <color name="red_dark">#db3131</color>
+    <color name="grey_41_opactity">#e0e0e0</color>
+    <color name="black_p50">#7f000000</color>
+    <color name="toolbarLight">#F9FDFF</color>
+    <color name="toolbarBlue">#F9FDFF</color>
+    <color name="accept">#7500ad14</color>
+    <color name="decline">#75ff0000</color>
+    <color name="sendRequest">#75ff4e00</color>
+
+    <color name="dark_red">#90ff1000</color>
+    <color name="light_green">#9000ad14</color>
+    <color name="feed_textview">#ececec</color>
+    <color name="missed_call_color">#30f1271d</color>
+    <color name="transparent_30_sky_blue">#302766ff</color>
+    <color name="recieved_call_color">#3018c202</color>
+    <color name="toolBarColor">#fd535e</color>
+    <color name="outgoing_call_color">#30f4af00</color>
+    <color name="profile_textview">#40ececec</color>
+    <color name="send_message_btn">#505788ff</color>
+    <color name="ciaoid_grey">#aeaeae</color>
+    <color name="white_opacity_85">#D9FFFFFF</color>
+    <color name="white_opacity_95">#F2FFFFFF</color>
+    <color name="black_opacity_90">#99000000</color>
+    <color name="black_opacity_80">#00000000</color>
+
+    <color name="send_message">#bde2ff</color>
+    <color name="intro_circle_active">#f1af25</color>
+    <color name="intro_circle_inactive">#cecece</color>
+    <color name="color_image_stroke">#e9e9e9</color>
+    <color name="post_blue">#3b5998</color>
+    <!--#3b5998-->
+    <!--webrtc colors-->
+    <color name="room_background">#f4f4f4</color>
+
+    <color name="message_normal">#000</color>
+    <color name="message_emote">#d8d</color>
+    <color name="message_highlighted">#00f</color>
+    <color name="message_sending">#aaa</color>
+    <color name="message_not_sent">#f00</color>
+
+    <color name="pie_fraction_fill">#f00</color>
+    <color name="pie_fraction_rest">#aaa</color>
+
+    <color name="chat_gray_text">#FFAAAAAA</color>
+    <color name="gray_line">#E1E1E1</color>
+    <color name="gray_add_friends">#e3e3e3</color>
+
+    <color name="markdown_code_background">#FFEEEEEE</color>
+
+    <color name="presence_unknown">#aaa</color>
+
+    <color name="vector_not_send_color">#FFFF4444</color>
+    <color name="vector_green_color">#FF76cfa6</color>
+    <color name="vector_light_gray_color">#FFF2F2F2</color>
+    <color name="vector_silvyer_color">#FFC7C7C7</color>
+
+    <color name="vector_d8_gray">#FFD8D8D8</color>
+
+    <color name="vector_74_gray">#FF747474</color>
+    <color name="vector_25_black">#25000000</color>
+    <color name="vector_33_black">#33000000</color>
+    <color name="vector_21_black">#FF212121</color>
+    <color name="vector_80_gray">#FF808080</color>
+    <color name="vector_05_gray">#FFF2F2F2</color>
+    <color name="vector_fuchsia_color">#ff0064</color>
+    <color name="sticker_time">#dbdbdb</color>
+    <color name="bs_divider_color">#1f000000</color>
+    <color name="bs_dark_divider_color">#1fffffff</color>
+
+
+    <!--bubble color -->
+    <color name="default_bubble_color">#bde2ff</color>
+    <color name="orange_bubble_color">#ffd57c</color>
+    <color name="red_bubble_color">#da3635</color>
+    <color name="green_bubble_color">#a6dd39</color>
+    <color name="gray_bubble_color">#d1d1d1</color>
+    <color name="yellow_bubble_color">#ffe060</color>
+    <color name="dark_green_bubble_color">#278d27</color>
+    <color name="purple_bubble_color">#aa38aa</color>
+    <color name="light_green_bubble_color">#8bff7c</color>
+    <color name="cyan_bubble_color">#7cffeb</color>
+    <color name="blue_bubble_color">#7cdfff</color>
+    <color name="dark_blue_bubble_color">#376fde</color>
+    <color name="file_share_bubble_color">#d7edff</color>
+
+    <!--    bottom bar -->
+    <color name="bb_inActiveBottomBarItemColor">#747474</color>
+    <color name="bb_darkBackgroundColor">#212121</color>
+    <color name="bb_tabletRightBorderDark">#505050</color>
+
+    <color name="file_share_color">#d7edff</color>
+    <color name="gray_background_group">#e3e3e3</color>
+    <color name="broadcast_background">#8eafff</color>
+    <color name="grey_118_opacity">#76000000</color>
+
+    <!-- VIDEO TRIMMER -->
+    <color name="background_video_color">#2f3031</color>
+    <color name="background_progress_color">#6C6D6D</color>
+    <!--<color name="progress_color">@color/colorPrimary</color>-->
+    <color name="line_color">#FF15FF00</color>
+    <color name="shadow_color">#FF000000</color>
+    <color name="line_button">#565758</color>
+    <color name="black_translucent">#50000000</color>
+
+    <color name="stpi_default_circle_color">#c4c4c4</color>
+    <color name="stpi_default_primary_color">#8dce6f</color>
+    <color name="stpi_default_line_color">#c4c4c4</color>
+    <color name="stpi_default_text_color">#ffffff</color>
+    <color name="dashboard_tabs_color_text">#E0E0E0</color>
+
+
+
+    <color name="finish_draw">#2194bf</color>
+    <color name="play">#de880c</color>
+    <color name="req_reset">#cb69e4</color>
+    <color name="reject">#ff0000</color>
+    <color name="box_color">#62c9d7</color>
+</resources>

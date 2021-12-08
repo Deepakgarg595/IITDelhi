@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup_window"
+    android:layout_width="match_parent"
+    android:layout_height="560dp"
+    android:layout_gravity="bottom|center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_above="@+id/llButtons"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:background="@drawable/bg_bottomsheet"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="15dp"
+                android:gravity="center"
+                android:padding="@dimen/padding_8"
+                android:text="Select Items"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/text_size_regular" />
+
+            <ImageView
+                android:id="@+id/ivSearch"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_8"
+                android:layout_marginRight="@dimen/padding_5"
+                android:visibility="visible"
+                app:tint="@color/primary_blue" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/light_gray"></View>
+
+        <RelativeLayout
+            android:id="@+id/rlSearchByName"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.app.iitdelhicampus.utility.CustomEditText
+                android:id="@+id/editSearchByName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boarder_search"
+                android:drawablePadding="@dimen/padding_5"
+                android:drawableTint="@color/primary_blue"
+                android:hint="Search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:padding="7dp"
+                android:layout_margin="@dimen/margin_5dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_toLeftOf="@+id/tvCancel" />
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:padding="@dimen/margin_5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"></com.app.iitdelhicampus.utility.CustomTextView>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_5dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_5"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_bottomsheet"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.app.iitdelhicampus.utility.CustomTextView
+            android:id="@+id/txtCancel"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:padding="@dimen/padding_8"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal"
+
+            />
+
+        <com.app.iitdelhicampus.utility.CustomTextView
+            android:id="@+id/txtDone"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:padding="@dimen/padding_8"
+            android:text="Done"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/text_size_normal"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

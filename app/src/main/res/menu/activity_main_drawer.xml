@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--        <item-->
+<!--            android:id="@+id/nav_order"-->
+<!--            android:title="Patrolling Routes" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_tagging"-->
+<!--            android:icon="@mipmap/qr_code_menu"-->
+<!--            android:title="QR Tagging" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_Sync"-->
+<!--            android:title="Sync Data" />-->
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@mipmap/report_incident_menu"
+            android:title="Report an issue" />
+        <item
+            android:id="@+id/maintenence"
+            android:icon="@mipmap/report_incident_menu"
+            android:title="Manual Punch" />
+<!--        <item-->
+<!--            android:id="@+id/nav_address"-->
+<!--            android:icon="@drawable/duty_roster_icon"-->
+<!--            android:title="CAPA" />-->
+        <item
+            android:id="@+id/sos"
+            android:icon="@mipmap/sos_menu"
+            android:title="SOS" />
+<!--        <item-->
+<!--            android:id="@+id/nav_about"-->
+<!--            android:icon="@drawable/about_us"-->
+<!--            android:title="@string/menu_about" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_term"-->
+<!--            android:icon="@drawable/terms"-->
+<!--            android:title="@string/menu_term" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_help"-->
+<!--            android:icon="@drawable/help"-->
+<!--            android:title="@string/menu_help" />-->
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/logout"
+            android:title="@string/menu_logout" />
+
+</menu>

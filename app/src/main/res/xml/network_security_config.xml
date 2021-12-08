@@ -1,0 +1,6 @@
+<domain-config>
+<domain includeSubdomains="true">https://orionwach.com</domain>
+<trust-anchors>
+    <certificates src="user" />
+</trust-anchors>
+</domain-config>

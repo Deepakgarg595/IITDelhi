@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">84855487182-o8vmfr9f6ph5tcpncddrlvguqeoaufoe.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">84855487182</string>
+    <string name="google_api_key" translatable="false">AIzaSyBcO1FN_xVr7vrGc8AVOsBLWyC3IEfv8ls</string>
+    <string name="google_app_id" translatable="false">1:84855487182:android:fef0668b7fbde0b0df2e9f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBcO1FN_xVr7vrGc8AVOsBLWyC3IEfv8ls</string>
+    <string name="google_storage_bucket" translatable="false">iit-delhi-campus.appspot.com</string>
+    <string name="project_id" translatable="false">iit-delhi-campus</string>
+</resources>

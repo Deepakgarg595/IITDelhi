@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "84855487182",
+    "project_id": "iit-delhi-campus",
+    "storage_bucket": "iit-delhi-campus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84855487182:android:fef0668b7fbde0b0df2e9f",
+        "android_client_info": {
+          "package_name": "com.app.iitdelhicampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84855487182-vr9as7a5fbtl20ihbitncpkdqp6db142.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.iitdelhicampus",
+            "certificate_hash": "8ec11fc9d6dc3c2b801dd29c2c5e64504bbbd996"
+          }
+        },
+        {
+          "client_id": "84855487182-o8vmfr9f6ph5tcpncddrlvguqeoaufoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcO1FN_xVr7vrGc8AVOsBLWyC3IEfv8ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84855487182-o8vmfr9f6ph5tcpncddrlvguqeoaufoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

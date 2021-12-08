@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_10dp"
+    >
+
+    <FrameLayout
+        android:layout_toLeftOf="@+id/tvCancel"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_bg_search"
+        >
+        <com.app.iitdelhicampus.utility.CustomEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Search Client Name Here"
+            android:paddingLeft="@dimen/margin_20dp"
+            android:paddingRight="@dimen/margin_25"
+            android:paddingTop="@dimen/margin_15"
+            android:paddingBottom="@dimen/margin_15">
+
+        </com.app.iitdelhicampus.utility.CustomEditText>
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/margin_15"
+            android:tint="@color/black"
+            android:translationZ="@dimen/margin_10dp"></ImageView>
+
+    </FrameLayout>
+    <com.app.iitdelhicampus.utility.CustomTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvCancel"
+        android:padding="@dimen/margin_10dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Cancel"></com.app.iitdelhicampus.utility.CustomTextView>
+
+</RelativeLayout>
+
+
+</LinearLayout>

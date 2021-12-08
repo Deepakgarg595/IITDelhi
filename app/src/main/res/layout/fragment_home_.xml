@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--    <androidx.core.widget.NestedScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:visibility="gone">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:padding="@dimen/margin_10dp"
+                app:fillColor="@color/red_dark"
+                app:pageColor="@android:color/white"
+                app:radius="@dimen/padding_5"
+                app:strokeWidth="2dp" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_banner"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop">
+
+            </ImageView>
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvVersion"
+                android:textSize="@dimen/text_10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:textColor="@color/white"
+                android:padding="@dimen/margin_5dp"
+                android:translationZ="@dimen/margin_10dp"
+                android:text="">
+
+            </com.app.iitdelhicampus.utility.CustomTextView>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/padding_5"
+            android:background="@color/primary_blue"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/padding_5"
+                android:padding="@dimen/padding_5"
+                android:text="10 May, 2021"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_13sp">
+
+            </com.app.iitdelhicampus.utility.CustomTextView>
+
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="@dimen/padding_5"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_13sp">
+
+            </com.app.iitdelhicampus.utility.CustomTextView>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:background="@color/blue_sky"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/padding_5"
+                android:paddingBottom="@dimen/margin_10dp">
+
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:text="Start Time"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_13sp">
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:id="@+id/tvStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--:--"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_15sp">
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:layout_weight="1"
+                android:background="@color/sendRequest"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/padding_5"
+                android:paddingBottom="@dimen/margin_10dp">
+
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_5dp"
+                    android:text="End Time"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_13sp">
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:id="@+id/tvEndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--:--"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_15sp">
+
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/quantum_brown"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:id="@+id/tvStartStop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click to Start"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_13sp">
+
+                </com.app.iitdelhicampus.utility.CustomTextView>
+
+                <ImageView
+                    android:id="@+id/ivPlayPause"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:tint="@color/white"
+                    android:layout_marginBottom="@dimen/padding_5"
+                    android:textColor="@color/black_dark"
+                    android:textSize="@dimen/text_15sp">
+
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/padding_5"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/padding_5"
+            android:nestedScrollingEnabled="false">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+    <!--    </androidx.core.widget.NestedScrollView>-->
+    <ProgressBar
+        android:id="@+id/pBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </ProgressBar>
+
+</FrameLayout>
+

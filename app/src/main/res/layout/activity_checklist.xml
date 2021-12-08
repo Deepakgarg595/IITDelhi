@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnVerifyNumber"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@color/colorPrimary"
+            android:contentInsetStart="0dp"
+            android:contentInsetLeft="0dp"
+            android:elevation="3dp"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextColor="@color/white">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/margin_10dp"
+                android:visibility="visible" />
+
+            <com.app.iitdelhicampus.utility.CustomTextViewBold
+                android:id="@+id/txtHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Axis Bank Check List"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/margin_10dp"
+                android:paddingRight="@dimen/margin_10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:id="@+id/txtDateNTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/imageArrow"
+                            android:cursorVisible="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Date &amp; Time: 21 Jul,2020 11:25"
+                            android:longClickable="false"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_15dp"
+                            android:textSize="@dimen/text_size_normal">
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_bg_gray"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        >
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:id="@+id/txtLastVisitDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/imageArrow"
+                            android:cursorVisible="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Last Visit Date: 21 Jul,2020"
+                            android:longClickable="false"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_15dp"
+                            android:textSize="@dimen/text_size_normal">
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Perimeter Round Taken?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupPerimeterRound"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1Perimeter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2Perimeter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_bg_gray"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Is Security Guard Available?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupIsSecurityGuard"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1IsSecurityGuard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2IsSecurityGuard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="AC Outdoor Unit OK?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupAcOutdoor"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1AcOutdoor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2AcOutdoor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_bg_gray"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Branch Light and AC Off?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupBranchLight"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1BranchLight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2BranchLight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Branch Shutter Lock Tested Checked?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupBranchShutter"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1BranchShutter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2BranchShutter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="ATM Working?"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupAtmWorking"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1AtmWorking"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2AtmWorking"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_bg_gray"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Checked ATM Skimming Device Found?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupCheckedAtmSkimming"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1CheckedAtmSkimming"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2CheckedAtmSkimming"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="ATM AC Working?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupAtmAcWorking"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1AtmAcWorking"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2AtmAcWorking"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_bg_gray"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="ATM Room Clean?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupAtmRoom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1AtmRoom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2AtmRoom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Fire Extinguisher Available?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupFireExtinguisher"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1FireExtinguisher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2FireExtinguisher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_bg_gray"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="ATM Back Room Locked?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupAtmBackRoom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1AtmBackRoom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2AtmBackRoom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="DG Set Battery Checked?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupDGSetBattery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1DGSetBattery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2DGSetBattery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_bg_gray"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Police Patrol Met?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupPolicePatrol"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1PolicePatrol"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2PolicePatrol"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_light_bg"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Police Station Visit Checked?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupPoliceStationVisit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1PoliceStationVisit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2PoliceStationVisit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_bg_gray"
+                    android:orientation="vertical">
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/astrik_icon"
+                        android:drawablePadding="@dimen/margin_5dp"
+                        android:hint="Signage Working?"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupSignatureWorking"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/margin_15dp">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1SignatureWorking"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2SignatureWorking"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="No"
+
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tvAnyOtherObservation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10dp">
+
+                    <com.app.iitdelhicampus.utility.CustomEditText
+                        android:id="@+id/etAnyOtherObservation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/imageArrow"
+                        android:hint="Any Other Observation"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_10dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal">
+
+                    </com.app.iitdelhicampus.utility.CustomEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.app.iitdelhicampus.utility.CustomTextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Take Photo"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ivCamera"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:src="@drawable/camera_icon"></ImageView>
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/ivScanQRCode"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/qr_scan"></ImageView>
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_marginBottom="@dimen/padding_5dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:id="@+id/tvLocationCapture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="false"
+                    android:drawablePadding="@dimen/margin_10dp"
+                    android:focusableInTouchMode="false"
+                    android:hint=""
+                    android:longClickable="false"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_5dp"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:textSize="@dimen/text_size_normal" />
+
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/pbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+
+
+
+    <com.app.iitdelhicampus.utility.CustomTextViewBold
+        android:id="@+id/btnVerifyNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin_10dp"
+        android:background="@drawable/background_rounded"
+        android:gravity="center"
+        android:padding="@dimen/margin_10dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+</RelativeLayout>

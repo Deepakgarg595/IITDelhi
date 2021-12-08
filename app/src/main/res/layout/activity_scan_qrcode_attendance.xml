@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp"
+        android:elevation="2dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_collapseMode="pin"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:src="@mipmap/back_arrow_icon" />
+
+
+            <TextView
+                android:id="@+id/txtProfileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rlOtherView"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tvInputEmpCode"
+            android:layout_toLeftOf="@+id/tvInOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp">
+
+            <com.app.iitdelhicampus.utility.CustomEditText
+                android:id="@+id/etEmpCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-"
+                android:hint="Enter Employee Code"
+                android:paddingLeft="@dimen/margin_5dp"
+                android:paddingTop="@dimen/margin_15dp"
+                android:paddingBottom="@dimen/margin_10dp"
+                android:visibility="visible"
+                android:textSize="@dimen/text_size_normal">
+
+            </com.app.iitdelhicampus.utility.CustomEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.app.iitdelhicampus.utility.CustomTextViewBold
+            android:id="@+id/tvInOut"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10dp"
+            android:background="@drawable/rounded_attendance_in"
+            android:gravity="center"
+            android:ems="3"
+            android:padding="@dimen/margin_10dp"
+            android:text="IN"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <com.app.iitdelhicampus.utility.CustomTextView
+        android:id="@+id/tvEmpName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_15dp"
+        android:paddingRight="@dimen/margin_5dp"
+        android:text=""
+        android:textColor="@color/primary_blue"
+        android:textSize="15sp">
+
+    </com.app.iitdelhicampus.utility.CustomTextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10dp"
+        app:cardElevation="@dimen/margin_10dp"
+        app:cardCornerRadius="@dimen/margin_10dp">
+
+        <LinearLayout
+            android:layout_margin="@dimen/margin_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.app.iitdelhicampus.utility.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_16sp"
+                android:text="Take self Image">
+
+            </com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+            <ImageView
+                android:id="@+id/ivCamera"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/camera_icon"></ImageView>
+
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvLocationCapture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="false"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:focusableInTouchMode="false"
+                android:gravity="center_horizontal"
+                android:longClickable="false"
+                android:paddingLeft="@dimen/margin_5dp"
+                android:paddingTop="@dimen/margin_5dp"
+                android:paddingRight="@dimen/margin_5dp"
+                android:paddingBottom="@dimen/margin_10dp"
+                android:textSize="@dimen/text_size_normal" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10dp"
+        app:cardElevation="@dimen/margin_10dp"
+        app:cardCornerRadius="@dimen/margin_10dp">
+
+        <LinearLayout
+            android:layout_margin="@dimen/margin_10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/llQRView"
+            android:layout_height="wrap_content">
+
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvPunchingDate"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Punching Date"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:drawablePadding="@dimen/margin_5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.app.iitdelhicampus.utility.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_16sp"
+                android:text="Scan QR Code">
+
+            </com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+            <ImageView
+                android:id="@+id/ivQRCode"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_marginBottom="@dimen/margin_20dp"
+                android:layout_width="100dp"
+                android:src="@drawable/qr_scan"
+                android:layout_height="100dp"></ImageView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.app.iitdelhicampus.utility.CustomTextViewBold
+        android:id="@+id/tvQRCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin_10dp"
+        android:background="@drawable/rounded_bg_scan_qr"
+        android:gravity="center"
+        android:padding="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+        android:id="@+id/scannerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/scan"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+
+</LinearLayout>

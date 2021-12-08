@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:title="January"
+            app:showAsAction="always"/>
+        <item
+            android:title="February"
+            app:showAsAction="always"/>
+        <item
+            android:title="March"
+            app:showAsAction="always"/>
+        <item
+            android:title="April"
+            app:showAsAction="always"/>
+        <item
+            android:title="May"
+            app:showAsAction="always"/>
+        <item
+            android:title="June"
+            app:showAsAction="always"/>
+        <item
+            android:title="July"
+            app:showAsAction="always"/>
+        <item
+            android:title="August"
+            app:showAsAction="always"/>
+        <item
+            android:title="September"
+            app:showAsAction="always"/>
+        <item
+            android:title="October"
+            app:showAsAction="always"/>
+        <item
+            android:title="November"
+            app:showAsAction="always"/>
+        <item
+            android:title="December"
+            app:showAsAction="always"/>
+
+</menu>

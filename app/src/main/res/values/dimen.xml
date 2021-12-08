@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_height">200dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_login_option">25sp</dimen>
+    <dimen name="text_size_job_hire">20sp</dimen>
+    <dimen name="text_size_regular">15sp</dimen>
+    <dimen name="text_size_regular_text">17sp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_chat_time">11sp</dimen>
+    <dimen name="text_size_header">20sp</dimen>
+    <dimen name="text_size_fullname">18sp</dimen>
+    <dimen name="text_size_summary">12sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_menu_list">16sp</dimen>
+    <dimen name="list_padding">0dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
+    <dimen name="crop__bar_height">56dp</dimen>
+    <dimen name="text_padding_right">17sp</dimen>
+    <dimen name="counter_size">9sp</dimen>
+    <dimen name="otp_box_width">20dp</dimen>
+
+    <dimen name="grid_item_divider">4dp</dimen>
+
+    <integer name="users_count">10</integer>
+
+    <dimen name="dgv_overlap_if_switch_straight_line">16dp</dimen>
+
+    <dimen name="radarWidth">309.0dip</dimen>
+    <dimen name="radarHight">309.0dip</dimen>
+    <dimen name="radarSliderBottomMargin">10.0dp</dimen>
+
+    <dimen name="bubble_image_file">280dp</dimen>
+    <dimen name="bubble_audio_file">190dp</dimen>
+
+    <dimen name="chat_media_size">280dp</dimen>
+    <dimen name="chat_sticker_size">180dp</dimen>
+
+    <!--webrtc dimens-->
+
+    <dimen name="chat_avatar_size">40dp</dimen>
+    <dimen name="chat_small_avatar_size">15dp</dimen>
+    <dimen name="chat_avatar_keyboard_size">15dp</dimen>
+    <dimen name="invitation_member_list_avatar_size">50dp</dimen>
+    <dimen name="member_list_avatar_size">60dp</dimen>
+
+
+    <dimen name="profile_avatar_size">50dp</dimen>
+    <dimen name="list_view_fading_edge_length">150dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="login_buttons_height">53dp</dimen>
+
+    <dimen name="floating_action_button_margin">0dp</dimen>
+
+    <dimen name="navigation_view_height">172dp</dimen>
+    <dimen name="navigation_avatar_top_margin">20dp</dimen>
+
+    <dimen name="bs_grid_left_padding">8dp</dimen>
+    <dimen name="bs_grid_top_padding">0dp</dimen>
+    <dimen name="bs_grid_right_padding">8dp</dimen>
+    <dimen name="bs_grid_bottom_padding">8dp</dimen>
+    <dimen name="max_text_size">30sp</dimen>
+    <!--bottom bar-->
+    <dimen name="bb_height">56dp</dimen>
+
+    <dimen name="text_size_heading">18sp</dimen>
+    <dimen name="text_size_normal">15sp</dimen>
+    <dimen name="text_size_normal_17">17sp</dimen>
+    <dimen name="text_size_large">25sp</dimen>
+    <dimen name="text_23sp">23sp</dimen>
+
+    <!--margins-->
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_big">12dp</dimen>
+    <dimen name="margin">18dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+
+
+    <!--text size-->
+    <dimen name="text_10sp">10sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_13sp">13sp</dimen>
+    <dimen name="text_15sp">15sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_22sp">22sp</dimen>
+    <dimen name="text_25sp">25sp</dimen>
+    <dimen name="text_30sp">30sp</dimen>
+    <dimen name="text_17sp">17sp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_7">7dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_size_large">12dp</dimen>
+    <dimen name="padding_size_larger">16dp</dimen>
+    <dimen name="padding_size_larger_18">18dp</dimen>
+    <dimen name="padding_size_large_20dp">20dp</dimen>
+
+
+    <!--sliding-->
+    <dimen name="shadow_size">10dp</dimen>
+    <dimen name="layer_size">30dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="preview_offset_distance">8dp</dimen>
+    <dimen name="offset_distance">8dp</dimen>
+    <dimen name="margin_style">16dp</dimen>
+    <dimen name="width_height_location">50dp</dimen>
+    <!-- VIDEO TRIMMER-->
+    <dimen name="progress_video_line_height">2dp</dimen>
+    <dimen name="frames_video_height">40dip</dimen>
+
+    <!--stepper pager indicator-->
+    <dimen name="stpi_default_circle_radius">10dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">2dp</dimen>
+    <dimen name="stpi_default_line_margin">5dp</dimen>
+    <dimen name="stpi_circle_small">0dp</dimen>
+    <dimen name="stpi_default_text_size">12sp</dimen>
+
+    <dimen name="stpi_default_bottom_indicator_height">3dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_width">50dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_margin_top">10dp</dimen>
+
+    <dimen name="stpi_default_label_size">12sp</dimen>
+    <dimen name="stpi_default_label_margin_top">2dp</dimen>
+
+    <dimen name="stpi_two_dp">2dp</dimen>
+    <dimen name="stpi_done_icon_size">22dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="line_thickness">5dp</dimen>
+    <dimen name="text_8sp">8sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+</resources>

@@ -1,0 +1,16 @@
+#Wed Dec 08 12:34:03 IST 2021
+path.4=classes3.dex
+path.3=classes2.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+base.4=D\:\\AndroidProject\\IITDelhi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+base.3=D\:\\AndroidProject\\IITDelhi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+base.2=D\:\\AndroidProject\\IITDelhi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+base.1=D\:\\AndroidProject\\IITDelhi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.0=D\:\\AndroidProject\\IITDelhi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.4=classes5.dex

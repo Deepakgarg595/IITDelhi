@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_5dp">
+
+    <RelativeLayout
+        android:id="@+id/rlDay"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="monday"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black_dark" />
+
+
+        <ImageView
+            android:id="@+id/imgTick"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/padding_5"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/padding_5"
+        android:layout_marginRight="@dimen/margin_10dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/llTimingFrom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtTimingsFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/padding_5"
+                android:background="@drawable/borderblack"
+                android:drawableTint="@color/colorPrimary"
+                android:hint="@string/from"
+                android:padding="@dimen/padding_5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/txt_gray"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTimingTo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtTimingsTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/borderblack"
+                android:drawableTint="@color/colorPrimary"
+                android:hint="@string/to"
+                android:padding="@dimen/padding_5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/txt_gray"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

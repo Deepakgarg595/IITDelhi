@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DashBoardActivity">
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:theme="@style/AppTheme.AppBarOverlay">-->
+
+    <!--        <androidx.appcompat.widget.Toolbar-->
+    <!--            android:id="@+id/toolbar"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="?attr/actionBarSize"-->
+    <!--            android:background="@color/colorPrimary"-->
+    <!--            app:popupTheme="@style/AppTheme.PopupOverlay">-->
+
+    <!--        </androidx.appcompat.widget.Toolbar>-->
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+
+        <ImageView
+            android:layout_width="@dimen/text_30sp"
+            android:src="@drawable/menu"
+            android:id="@+id/imgMenu"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_centerVertical="true"
+            android:layout_height="@dimen/text_30sp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_app_logo"></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/margin_25"
+                android:id="@+id/imgSync"
+                android:visibility="gone"
+                android:layout_margin="@dimen/padding_5"
+                android:layout_centerVertical="true"
+                android:layout_height="@dimen/margin_25">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="@dimen/margin_25"
+                android:src="@drawable/notification"
+                android:id="@+id/imgNotifiication"
+                android:layout_margin="@dimen/padding_5"
+                android:layout_centerVertical="true"
+                android:layout_height="@dimen/margin_25">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="@dimen/margin_25"
+                android:visibility="gone"
+                android:layout_margin="@dimen/padding_5"
+                android:layout_centerVertical="true"
+                android:layout_height="@dimen/margin_25">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/content_dash_board" />
+
+
+
+</LinearLayout>

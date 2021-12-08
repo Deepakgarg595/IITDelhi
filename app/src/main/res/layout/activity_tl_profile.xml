@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rltRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:elevation="3dp"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:titleTextColor="@color/white">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.app.iitdelhicampus.utility.CustomTextViewBold
+                android:id="@+id/txtHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="TL Profile"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="@dimen/margin_10dp"
+                android:visibility="visible"
+                app:tint="@color/white" />
+
+            <ImageView
+
+                android:id="@+id/ivDashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:padding="@dimen/margin_10dp"
+                android:src="@drawable/menu"
+                android:visibility="gone"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:padding="@dimen/margin_5dp"
+                android:text="version:1.1"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="italic"
+                android:translationZ="1dp"></com.app.iitdelhicampus.utility.CustomTextView>
+
+            <ImageView
+                android:id="@+id/ivProfileBlurr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/profile_header_bg"
+                android:scaleType="centerCrop">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_20dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/padding_5"
+                    android:layout_marginTop="@dimen/margin_20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile"></de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivProfile"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.app.iitdelhicampus.utility.CustomTextViewBold
+                        android:id="@+id/tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_5"
+                        android:text="Jennifer Wilson"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_20sp"
+                        android:textStyle="bold" />
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvUserId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/padding_5"
+                        android:text="User ID:"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvMobile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/padding_5"
+                        android:text="Mobile:"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvLoginTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_5"
+                        android:text="Login Time: 15 Oct 20, 11:25 AM"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llTLView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/lignt_gray_f7">
+
+
+            </View>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/lignt_gray_f7"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/llReviewIncident"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:paddingBottom="@dimen/margin_20dp">
+
+                    <ImageView
+                        android:id="@+id/ivIncedentReview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/incident_review_icon"></ImageView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:padding="@dimen/padding_5"
+                        android:text="Incident Review"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llReportIncident"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:paddingBottom="@dimen/margin_20dp">
+
+                    <ImageView
+                        android:id="@+id/ivReportIncident"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/report_incident_icon"></ImageView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:padding="@dimen/padding_5"
+                        android:text="Report Incident"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llSiteObservation"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:paddingBottom="@dimen/margin_20dp">
+
+                    <ImageView
+
+                        android:id="@+id/ivSiteVisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/site_visit_icon"></ImageView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:padding="@dimen/padding_5"
+                        android:text="Site Observation"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/lignt_gray_f7">
+
+
+            </View>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lignt_gray_f7"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+
+                    android:id="@+id/llAttendance"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:paddingBottom="@dimen/margin_20dp">
+
+                    <ImageView
+                        android:id="@+id/ivAttendance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/attendance_icon"></ImageView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:padding="@dimen/padding_5"
+                        android:text="Attendance"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llLeave"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:paddingBottom="@dimen/margin_20dp">
+
+                    <ImageView
+                        android:id="@+id/ivLeave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/leave_icon"></ImageView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:padding="@dimen/padding_5"
+                        android:text="Leave"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llEmpList"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:paddingBottom="@dimen/margin_20dp">
+
+                    <ImageView
+                        android:id="@+id/ivEmpList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/emp_list_icon"></ImageView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:padding="@dimen/padding_5"
+                        android:text="Emp List"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/lignt_gray_f7">
+
+
+            </View>
+
+            <LinearLayout
+                android:id="@+id/llQRView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:background="@drawable/rounded_bg_scan_qr"
+                android:padding="@dimen/margin_10dp">
+
+                <ImageView
+                    android:id="@+id/ivScanQRCode"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/qr_scan"
+                    app:tint="@color/white"></ImageView>
+
+                <com.app.iitdelhicampus.utility.CustomTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Tag QR Code"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_16sp"
+                    android:textStyle="bold"></com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPOView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/lignt_gray_f7">
+
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lignt_gray_f7"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <LinearLayout
+                    android:id="@+id/llWholeViewClick"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/padding_5"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:paddingBottom="@dimen/margin_20dp">
+
+                    <ImageView
+                        android:id="@+id/ivReportIncidentPO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/report_incident_icon"></ImageView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:padding="@dimen/padding_5"
+                        android:text="Report Incident"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_5"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_20dp"
+                    android:paddingBottom="@dimen/margin_20dp"
+                    android:visibility="visible">
+
+                    <ImageView
+
+                        android:id="@+id/ivSiteVisitPO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/sos2"></ImageView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lines="2"
+                        android:padding="@dimen/padding_5"
+                        android:text="SOS"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/text_15sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/lignt_gray_f7">
+
+
+            </View>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rltContentTab"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rltContentTab"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray"></View>
+
+        <include layout="@layout/bottombar_tabs"></include>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rltBottomBarCenterTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/llhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/HomeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/tvHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <!--  <com.whatsaround.transformer.SlidingLayer
+          android:id="@+id/slidingLayer1"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_below="@+id/toolbar"
+          android:elevation="2dip"
+          android:visibility="visible">
+          <include layout="@layout/activity_slider" />
+      </com.whatsaround.transformer.SlidingLayer>-->
+
+</LinearLayout>

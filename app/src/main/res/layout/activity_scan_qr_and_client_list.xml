@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<ImageView
+    android:id="@+id/imgBack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_10dp"
+    android:translationZ="@dimen/margin_10dp"
+    app:tint="@color/white">
+
+</ImageView>
+
+        <com.app.iitdelhicampus.utility.CustomTextView
+            android:id="@+id/scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:text="Scan Any QR code"
+            android:translationZ="@dimen/margin_10dp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <me.dm7.barcodescanner.zxing.ZXingScannerView
+            android:id="@+id/scannerView"
+            android:layout_above="@+id/llClient"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+
+<LinearLayout
+    android:id="@+id/llClient"
+    android:layout_marginTop="-30dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/rounded_bg_white_qr_client_list">
+
+</LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_scrollFlags="scroll|enterAlways"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--style="@style/AppThemeDark"-->
+        <!--android:elevation="3dp"-->
+        <!--app:titleTextColor="@color/colorWhite"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--/>-->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:contentInsetEnd="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetStart="0dp"
+        android:elevation="2dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/rlMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                >
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/padding_8"
+                android:tint="@color/white"
+                android:layout_marginLeft="10dp"
+                />
+
+
+            <TextView
+                android:id="@+id/txtProfileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="Select Country"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/padding_8"
+                android:tint="@color/white"
+
+                android:layout_marginRight="10dp"
+                />
+            </RelativeLayout>
+
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/rlSearchItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/imgBackSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/padding_8"
+                    android:layout_marginLeft="10dp" />
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imgSearchLeft"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_toRightOf="@+id/imgBackSearch"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:padding="@dimen/padding_8"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:src="@mipmap/search_white" />-->
+                <!--<EditText-->
+                    <!--android:id="@+id/etSearchCountry"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_toRightOf="@+id/imgSearchLeft"-->
+                    <!--android:layout_toLeftOf="@+id/imgCross"-->
+                    <!--android:textColor="@color/colorWhite"/>-->
+
+                <EditText
+
+                    android:id="@+id/etSearchCountry"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/imgCross"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:inputType="textFilter"
+                    android:background="@null"
+                    android:layout_toRightOf="@+id/imgBackSearch"
+                    android:drawablePadding="@dimen/padding_size_larger"
+                    android:padding="@dimen/margin_10dp"
+                    android:textSize="@dimen/text_size_regular"
+                    android:cursorVisible="true"
+
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:imeOptions="actionNext"
+                    >
+                    <!--<requestFocus ></requestFocus>-->
+                </EditText>
+                <View
+                    android:layout_below="@+id/etSearchCountry"
+                    android:layout_toRightOf="@+id/imgBackSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:visibility="gone"
+                    android:background="@color/light_gray"></View>
+
+
+                <ImageView
+                    android:id="@+id/imgCross"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/padding_8"
+                    android:layout_marginRight="10dp" />
+
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <ListView
+        android:id="@+id/lsvCountries"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/light_gray"
+        android:dividerHeight="0.5dp"
+        android:paddingLeft="10dp" />
+
+</LinearLayout>

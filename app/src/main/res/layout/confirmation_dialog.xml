@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_window"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+   android:background="@color/transparent"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg">
+    <com.app.iitdelhicampus.utility.CustomTextView
+        android:id="@+id/numberConfimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/colorBlack28"
+        android:textSize="@dimen/text_size_normal"
+        android:textStyle="bold"
+        android:text="NUMBER CONFIRMATION:"
+        />
+
+    <com.app.iitdelhicampus.utility.CustomTextView
+        android:id="@+id/txtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/colorBlack28"
+        android:text="+91 85685856847"
+        />
+
+    <com.app.iitdelhicampus.utility.CustomTextView
+        android:id="@+id/txtConrifrm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/colorBlack28"
+        android:textSize="@dimen/text_size_normal"
+        />
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/light_gray"></View>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_normal"
+            android:layout_toLeftOf="@+id/btnYes"
+            android:background="@color/transparent"
+            android:textAllCaps="false"
+            android:gravity="center"/>
+        <!--<View
+            android:layout_width="0.8dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/light_gray"
+            ></View>-->
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_normal"
+            android:textAllCaps="false"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

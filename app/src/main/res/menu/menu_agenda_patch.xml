@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_add_new"
+        android:title="Add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_calendar"
+        android:title="@string/search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_check"
+        android:checkable="true"
+        android:orderInCategory="200"
+        android:title="All"
+        android:visible="true"
+        app:showAsAction="never" />
+
+
+</menu>

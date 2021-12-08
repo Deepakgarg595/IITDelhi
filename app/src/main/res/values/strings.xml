@@ -1,0 +1,2574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wach (IIT Delhi)</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">18451104551705</string>
+    <string name="fb_login_protocol_scheme">fb184511045517713</string>
+    <string name="Filter">Filter</string>
+    <string name="Apply">Apply</string>
+    <string name="ClearAll">Cancel</string>
+    <string name="Music">Music</string>
+    <string name="Art">Art</string>
+    <string name="weather_foggy">Foggy</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_rainy">Rainy</string>
+    <string name="weather_snowy">Snowy</string>
+    <string name="weather_thunder">Thunder</string>
+    <string name="weather_drizzle">Drizzy</string>
+    <string name="weather_sunny">Sunny</string>
+    <string name="weather_clear_night">Clear</string>
+    <string name="open_weather_maps_app_id">66ce252c0fa87e3aa71fd7f43d72ef9f</string>
+    <string name="science">Sports</string>
+    <string name="cooking">Cooking</string>
+    <string name="Dance">Dance</string>
+    <string name="others">Others</string>
+    <string name="Gaming">Gaming</string>
+    <string name="social">Social</string>
+    <string name="education">Education</string>
+    <string name="based_on_rating">Based On Rating</string>
+    <string name="ratingText">3.0</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_create_event">Create Event</string>
+    <string name="menu_my_event">My Event</string>
+    <string name="menu_my_friend">My Friend</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="google_maps_key">AIzaSyDCQ2nskLKYNVQMhOroMSLS2YTYa3mAGzg</string>
+
+    <string name="Social">Social</string>
+    <string name="Home">Home</string>
+    <string name="myEvents">Events</string>
+    <string name="chat">Chats</string>
+    <string name="setting">Settings</string>
+    <string name="payment">Payment</string>
+
+    <string name="notification_settings">Notification Settings</string>
+    <string name="terms_and_condotions">Terms And Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="faq">FAQ</string>
+    <string name="logout">Logout</string>
+
+    <string name="all_notificatins">All Notifications</string>
+    <string name="select">Select</string>
+    <string name="likes">Like</string>
+    <string name="events">Events</string>
+    <string name="attending_event">Attending Event</string>
+    <string name="private_event">Private Event</string>
+    <string name="comment">Comments</string>
+
+    <string name="select_catgory">Select category</string>
+    <string name="event_name">Event name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="location">Location</string>
+    <string name="event_type">Privacy</string>
+    <string name="event_start_date_and_time">Event start date and time</string>
+    <string name="event_end_date_and_time">Event end date and time</string>
+    <string name="description">Description</string>
+    <string name="share_on_instagram">Share On Instagram</string>
+    <string name="share_on_facebook">Share on facebook</string>
+    <string name="btn_next">Next</string>
+    <string name="create">Create</string>
+    <string name="no_of_participents">Maximum no of participants</string>
+    <string name="last_date_to_join_event">Last date to join this event</string>
+    <string name="last_date_to_cancel_event">Last date to cancel this event</string>
+
+    <string name="payment_description">Payment Description</string>
+    <string name="payment_link">Payment Link</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+
+
+    <string name="hide_locations">Hide Locations</string>
+    <string name="show_locations">Show Locations</string>
+
+
+    <string name="GPS_settings">GPS Settings.</string>
+    <string name="GPS_is_not_enabled_do_you_want_to">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="discover_me_in_search">Discover me in search</string>
+    <string name="transition">transit</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="some_error_occured">Some error occured!!</string>
+    <string name="invalid_phone_number"></string>
+    <string name="sport">Sports</string>
+    <string name="eventDetail">Running the gomut from  </string>
+    <string name="android"> Large parts of Android are written in Java and its APIs are designed to be called primarily from Java. It is possible to develop C and C++ app using the Android Native Development Kit (NDK), however it is not something that Google promotes.</string>
+    <!--FAQ-->
+    <string name="queOne">Where can i find my settings?</string>
+    <string name="queTwo">Can i post events for multiple categories?</string>
+    <string name="queThree">How can i change my location?</string>
+    <string name="queFour">Why my event is not approved?</string>
+    <string name="queFive">Sport</string>
+    <string name="queSix">Sport</string>
+    <string name="art">Art</string>
+
+    <!--signup-->
+    <string name="date_of_birth">Enter date of birth</string>
+    <string name="birth">Date of Birth</string>
+
+    <string name="email_address">Email Address</string>
+    <string name="male">Male</string>
+    <string name="select_gender">Select Gender</string>
+
+    <!--login-->
+    <!--verification-->
+
+    <string name="select_country">Select Country</string>
+    <string name="internet_alert">Please check internet connection!!</string>
+    <string name="select_category">Please Select category</string>
+    <string name="cancel_event_alert">Are you sure you want to cancel the event ?</string>
+    <string name="delete_event_alert">Are you sure you want to delete the event ?</string>
+    <string name="select_category_image">Please select an image</string>
+    <string name="select_event_name">Please enter Event name</string>
+    <string name="select_minimum_age">Please enter Minimum age to join</string>
+    <string name="select_location">Please select Location</string>
+    <string name="select_start_date_time">Please select Event start date and time</string>
+    <string name="select_end_date_time">Please select Event end date and time</string>
+    <string name="select_discription">Please enter Description</string>
+    <string name="fill_phone_number">Please enter your phone number</string>
+    <string name="fill_phone_password">Please enter your password</string>
+    <string name="select_type">Please select event type</string>
+    <string name="select_participants">Please enter Maximum no of participants</string>
+    <string name="last_date">Please select Last date to join this event</string>
+    <string name="last_date_cancel">Please select Last date to cancel this event</string>
+    <string name="enter_user_name">Please Enter name.</string>
+    <string name="enter_username">Please Enter username</string>
+    <string name="username_length">Username should be greater than 3 characters</string>
+    <string name="enter_username_valid">Please Enter valid username</string>
+    <string name="enter_aboutme">Please Enter your description</string>
+    <string name="enter_user_id">Enter username</string>
+    <string name="enter_date_of_birth">Please enter Date of birth</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="enter_valid_email_address">enter valid email address</string>
+    <string name="edit_your_profile">Edit your profile</string>
+    <string name="name_length">Name should be greater than 3 characters</string>
+    <string name="valid_phone_number">The phone number you entered is too long for the country </string>
+    <string name="valid_number">Please enter valid number </string>
+    <string name="valid_password">Please enter valid password </string>
+    <string name="valid_payment_description">Please enter Payment description </string>
+    <string name="valid_payment_link">Please enter Payment link </string>
+    <string name="version_update">New version %1$s is available</string>
+
+
+    <!--=======================================================-->
+
+
+    <string name="changenumber">Change Number</string>
+    <string name="disable_account">Disable Account</string>
+    <string name="status_">Status</string>
+    <string name="your_current_status">Your Current Status</string>
+    <string name="select_your_status">Select Your Status</string>
+    <string name="about">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="group_subject_icon">Please provide a group subject and optional group icon</string>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <!--<item>86,CN</item>-->
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="device_is_out_of_network_coverage">Device is out of network coverage</string>
+    <string name="not_connected_to_xmpp">Can\'t use this feature, untill connected</string>
+    <string name="some_error_occurred">Some error occurred!</string>
+    <string name="add_to_contacts">Add to Contacts</string>
+    <string name="settings">Settings</string>
+    <string name="more_settings">More</string>
+    <string name="menu_search">search</string>
+    <string name="menu_web_scanner">ApekSHAH Web</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="subscription">Subscription</string>
+    <string name="blocked">Blocked</string>
+    <string name="notifications">Notifications</string>
+    <string name="help">Help</string>
+    <string name="apply">Apply</string>
+    <string name="subscription_1">Subscribe Daily Pack at 1500 d/day with 5 free SMS and 1 free usage day first time. Call charge 500 d/min; SMS at 300d/SMS</string>
+    <string name="subscription_2">Subscribe Daily Pack at 7000 d/day with 25 free SMS and 1 free usage day first time. Call charge 500 d/min; SMS at 300d/SMS</string>
+    <string name="subscription_3">Subscribe Daily Pack at 220000 d/day with 100 free SMS and 1 free usage day first time. Call charge 500 d/min; SMS at 300d/SMS</string>
+    <string name="subscription_4">Try &amp; Buy</string>
+
+
+    <string name="pdf_opens">sail &amp; luggage tag</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="choose_file">Select a file</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+    <string name="clear">Clear</string>
+    <string name="select_group">Select Group</string>
+    <string name="new_group">New Group</string>
+    <string name="invite_friends">Invite a friend</string>
+    <string name="refresh_contact">Refresh</string>
+    <string name="app_info">Your Phone detail will not be shared.\n It will be used only for verification purpose.</string>
+    <string name="for_verfification_purpose">It will only be used for verification purpose.</string>
+    <string name="ph_number">Enter Phone Number</string>
+    <string name="ph">Please enter phone detail</string>
+    <string name="ph_valid">Please enter valid phone detail</string>
+    <string name="cont">CONTINUE</string>
+    <string name="confirmation">ApekSHAH will send a one time SMS to verify your phone detail. \nCarrier charges may apply..</string>
+    <string name="done">Done</string>
+    <string name="relax">Sit Back and Relax, we will notify you once verification is done!</string>
+    <string name="sms_delivered">SMS delivered</string>
+    <string name="verfication_code">We have sent a verification code to</string>
+    <string name="xx">XXX XXX XX00</string>
+    <string name="code_below">Please enter the received verification code below.</string>
+    <string name="Enter_verification_code">Enter verification code</string>
+    <string name="CONT">CONTINUE</string>
+    <string name="resend_verification_code">Resend Verification Code</string>
+    <string name="select_avatar">Select Avatar</string>
+    <string name="dob">D.O.B</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="full_name"> Name</string>
+    <string name="notification">Notification</string>
+
+    <string name="new_message">Notification tone</string>
+    <string name="call_ringtone">Ringtone</string>
+    <!--<string name="days">1 Days trail is about to expire in</string>-->
+    <string name="your_subscription">Your Subscription is Valid Till</string>
+    <string name="days_left">2 days left</string>
+    <string name="unsubscribe">UNSUBSCRIBE</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="extras_more">More</string>
+    <string name="extras_tell_a_friend">Tell a Friend</string>
+    <string name="report">Report a Problem</string>
+    <string name="hi">Hi,</string>
+    <string name="welcome">Welcome to ApekSHAH...</string>
+    <string name="make_wonderful">Make wonderfull fun loving friends only on ApekSHAH that too without revealing your dentity</string>
+    <string name="daily_subscription">Daily Subscription</string>
+    <string name="weekly_subscription">Weekly Subscription</string>
+    <string name="monthly_subscription">Monthly Subscription</string>
+    <string name="custom_subscription">Custom Subscription</string>
+    <string name="whats_new">Whats New ? </string>
+    <string name="profile">Profile</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="gender_select">Gender</string>
+    <string name="name">Name</string>
+    <string name="AddImage">Add Image</string>
+    <string name="status">Status : Hey theirs am using ApekSHAH</string>
+    <string name="subscription_validity">Subscription Validity</string>
+    <string name="female">Female</string>
+    <string name="menu_status">Status</string>
+    <string name="status_can_t_be_blank">Status can\'t be blank</string>
+    <string name="edit_message_can_t_be_blank">Blank Message can\'t be send</string>
+    <string name="group_name_can_t_be_blank">Name can\'t be blank</string>
+    <string name="status_add">Add new status</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="group_name">Enter group name</string>
+    <string name="update_status_error">Can\'t update staus at this time, try again later</string>
+    <string name="cover_upload_success">Cover image updated successfully!</string>
+    <string name="cover_image_upload_failed">Cover image upload failed!</string>
+    <!-- status -->
+    <string name="status_default_ciaom">Hey! I\'m using ApekSHAH</string>
+    <string name="status_available">Available</string>
+    <string name="status_busy">Busy</string>
+    <string name="interest_based">Interest Based</string>
+    <string name="status_at_school">At school</string>
+    <string name="status_at_work">At work</string>
+    <string name="status_battery_about_to_die">Battery about to die</string>
+    <string name="status_can_t_talk_vchat_only">Can\'t talk, ApekSHAH only</string>
+    <string name="status_sleeping">Sleeping</string>
+    <string name="status_in_a_meeting">In a meeting</string>
+    <string name="status_urgent_calls_only">Urgent calls only</string>
+    <string name="status_default">Hey theirs am using ApekSHAH</string>
+    <string name="blocked_contacts">Blocked</string>
+    <string name="button_next">Next</string>
+    <string name="create_group">Create</string>
+    <string name="add_participants">Add</string>
+    <string name="added_participants">Add Participants</string>
+    <string name="added_recipients">Added Recipients</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_updated_successfully">Profile updated successfully!</string>
+    <string name="profile_updation_failed">Profile updation failed!</string>
+    <string name="group_image_updated_successfully">Group image updated successfully!</string>
+    <string name="group_image_updation_failed">Group Image updation failed!</string>
+    <string name="group_create_admin_faild">Unable to create group admin</string>
+    <string name="group_remove_particpants">Unable to remove particpant!</string>
+    <string name="group_leave">Unable to leave conversation</string>
+    <string name="no_cover_photo">No Cover Photo</string>
+    <string name="no_profile_photo">No Profile Photo</string>
+    <string name="please_enter_group_name">Please Enter group name</string>
+    <string name="follow">FOLLOW</string>
+    <string name="unfollow">UNFOLLOW</string>
+    <string name="unfollow_">Unfollow</string>
+    <string name="follow_notification">Follow</string>
+
+    <string name="menu_forward">Forward</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_info">Info</string>
+    <string name="random">\?</string>
+    <string name="ques1">1. With a feature phone, can I use this service?</string>
+    <string name="ques2">2. What is ApekSHAH?</string>
+    <string name="ques3">3. Service packages?</string>
+    <string name="ques4">4. Everybody can use ApekSHAH?</string>
+    <string name="ques5">5. How to subcribe service?</string>
+    <string name="ques6">6. My friend can see my phone detail? </string>
+    <string name="ques7">7. What is ID?</string>
+    <string name="ques8">8. The difference between ID and Nickname?</string>
+    <string name="ques9">9. How to find out friends?</string>
+    <string name="ques10">10. Can I restore messages that I deleted?</string>
+    <string name="ans1">Sure. ApekSHAH provided on SMS, IVR, Web, App. With a feature phone, user can experience service via SMS and IVR.</string>
+    <string name="ans2">ApekSHAH is a premium solution, support Viettel subscribers can easily access and chat with friends or make friend instantly via SMS, Web, App and IVR with a great experience.On SMS and IVR, user can find out and interact to the others or create profile for themselves. App ApekSHAH support sending voice messages, video, pictures and text. You can also chat on group or you find friends. ApekSHAH App works on all iOS devices, Android, Windows Phone, Symbian and Blackberry.</string>
+    <string name="ans3">1. Daily: 1.500 d/day2. Weekly: 7.000 d/week3. Monthly: 22.000 d/month</string>
+    <string name="ans4">All Viettel subcribers can use service.</string>
+    <string name="ans5">a. SMS commands:DK1 send to 1517:Daily package DK3 send to1517:Weekly package DK30 send to1517:Monthly package b. IVR: Call to 1517, listen and follow instructions c. Web/App: follow instructions</string>
+    <string name="ans6">No. On SMS, App, Web: The friends only can see your Nickname.On IVR: The friends only can see yourID.</string>
+    <string name="ans7">ID chat is a code includes 7 digits, each user join in ApekSHAH will be provided 1 ID that cant be changed.</string>
+    <string name="ans8">ID: User cant change, it be provided by system.Nickname: user can change, it be created by user.</string>
+    <string name="ans9">You can find out friends via: -SMS: text TIM send to 1517 IVR: after subcribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature </string>
+    <string name="ans10">No.</string>
+    <string name="empty_view_chat">To start chat with phoneList who have ApekSHAH, tap the People tab on top of screen</string>
+    <string name="tap">tap</string>
+    <string name="empty_view_call">To place a ApekSHAH call, open a chat and tap   at at the top.</string>
+    <string name="empty_view_contacts">Tap Settings> Permissions, and turn Contacts on.</string>
+    <string name="empty_view_my_blogs">To create blog of your own, tap to create blog tab</string>
+    <string name="error_blog_assets">You must attach assets to create blogs</string>
+    <string name="error_blog_description">Description can\'t be blank!</string>
+    <string name="error_blog_title">Title can\'t be blank!</string>
+    <string name="add">Add</string>
+    <string name="block">Block</string>
+    <string name="cannot_forward_this_message_until_it_reaches_to_server">Cannot forward message, until it reaches to server</string>
+    <string name="action_view_profile">View Profile</string>
+    <string name="action_group_info">Group Info</string>
+    <string name="action_block">Block</string>
+    <string name="action_unblock">UnBlock</string>
+    <string name="action_mute">Mute</string>
+    <string name="action_cancel_mute">Cancel Mute</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="action_email_chat">Email Chat</string>
+    <string name="action_video_call">Video Call</string>
+    <string name="action_reset_notification">Reset notification settings</string>
+    <string name="create_post">Create post</string>
+    <string name="chat_load_more_items">Load more items</string>
+    <string name="whatsnew">Whats New on ApekSHAH</string>
+    <string name="createdby">Created by : </string>
+    <string name="load">Loading...</string>
+    <string name="Km">Km</string>
+    <string name="accountsettings">Account Settings</string>
+    <string name="peoplenearby">People Nearby</string>
+    <string name="signing_accept_tandc">By Sigining Up, I accept Terms and Conditions.</string>
+    <string name="reply_label">Reply</string>
+
+    <string-array name="reply_choices">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Maybe</item>
+    </string-array>
+
+    <string name="error_send_mail">Can\'t send mail this time</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="interests">Interests</string>
+    <string name="error_short_code">User short code not available!</string>
+    <string name="server_error">Something went wrong from server side!</string>
+    <string name="your_blog_has_been_created_successfully">Your blog has been created successfully</string>
+    <string name="can_t_selecte_this_image">images can be uploaded at a time</string>
+    <string name="can_t_more_image">You can select only 5 items</string>
+    <string name="camera_roll">Camera roll</string>
+    <string name="you_can_upload_maximum_9_images_at_a_time">You can Upload maximum 9 images at a time</string>
+    <string name="max_addtional_image_chat">You can send maximum of %d images at a time</string>
+    <string name="send_mesage_error">Message sending failed, please try again later!</string>
+    <string name="error_select_country">Please select country</string>
+    <string name="error_sim_not_available">Unable to send Message from your device</string>
+    <string name="enter_verification_code">Enter Verification Code</string>
+    <string name="error_otp_mismatch">Verification code doesn\'t match</string>
+    <string name="failed_to_send_otp">Failed to Send OTP</string>
+    <string name="type_contact_name">Type name</string>
+    <string name="empty_view_for_by_blog">Create you first blog, by clicking bottom right corner.</string>
+    <string name="no_blogs_available">No Blogs Available.</string>
+    <string name="exit_group">Exit Group</string>
+    <string name="error_add_participant_group">Please select at least one participant</string>
+    <string name="all_blogs">All Blogs</string>
+    <string name="no_interest">No Interest</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="edit_image">Edit Image</string>
+    <string name="you">You</string>
+    <string name="attachment">Attachment</string>
+    <string name="you_can_t_send_messages_to_this_group_because_you_are_no_longer_a_participant">You can\'t send messages to this group because you are no longer a participant</string>
+    <string name="error_not_member">You can\'t send messages to this group because you are no longer a participant</string>
+    <string name="view_contact">View Contact</string>
+    <string name="send_contact">Send Contact</string>
+    <string name="send">Send</string>
+    <string name="search">Search</string>
+    <string name="select_contacts">Select Contacts</string>
+    <string name="report_a_problem">Report a problem</string>
+    <string name="no_mail_configured">No Mail Configured</string>
+    <string name="blocked_users">Blocked Users</string>
+    <string name="error_edit_group_subject">Unable to change subject because you aren\'t a participant</string>
+    <string name="error_edit_group_icon">Unable to update the group icon because you aren\'t a participant</string>
+    <string name="error_left_group">You\'re no longer a participant in this group</string>
+    <string name="add_a_caption">Add a Caption</string>
+    <string name="last_seen">last seen</string>
+    <string name="today">Today</string>
+    <string name="verification">Verification</string>
+    <string name="hats">CHATS</string>
+    <string name="calls">CALLS</string>
+    <string name="refresh">Refresh</string>
+    <string name="chat_theme_info">The chat theme will change for you and your friend</string>
+    <string name="chat_themes">Themes</string>
+    <string name="stickers">Stickers</string>
+    <string name="camera">Camera</string>
+    <string name="gallery_video">Video</string>
+    <string name="gallery_image">Image</string>
+    <string name="files">Files</string>
+    <string name="contact">Contacts</string>
+    <string name="doodle">Doodle</string>
+    <string name="phone">Phone</string>
+    <string name="record_voice_memo_to_send">Record voice memo to send</string>
+    <string name="hold_amp_talk">HOLD &amp; TALK</string>
+    <string name="_changed_chat_theme">changed chat theme</string>
+
+
+    <string name="send_message">Send Message</string>
+
+
+    <string name="send_to">Send to</string>
+    <string name="add_atleast_one_image_to_send_">Add atleast one image to send!</string>
+    <string name="video_recording_not_supported_on_your_device">Video recording not supported on your device</string>
+    <string name="audio_could_not_be_recorded">Audio could not be recorded</string>
+    <string name="participants">Participants</string>
+    <string name="participant">Participant</string>
+    <string name="recipients">Recipients</string>
+    <string name="media">Media</string>
+
+    <!-- level 2 localization -->
+    <string name="action_secret_chat">New Secret Chat</string>
+    <string name="new_secret_chat">New Secret Chat</string>
+    <string name="view_conversation">View Conversation</string>
+    <string name="view_secret_chat">View Secret Chat</string>
+    <string name="clear_conversation">Clear Chat</string>
+    <string name="delete_conversation">Delete Chat</string>
+    <string name="self_destruct_timer">Self Destruct Timer</string>
+    <string name="done_caps">DONE</string>
+    <string name="cancel_caps">CANCEL</string>
+    <string name="timer_disabled">disabled the self-destruct timer</string>
+    <string name="timer_set">set the self-destruct timer to </string>
+    <string name="new_broadcast">New Broadcast</string>
+    <string name="create_new_post">Create new post</string>
+    <string name="press_back_again_to_exit_">Press back again to exit!</string>
+    <string name="add_contacts">Add Contact</string>
+    <string name="otp_message">Wach will send a one time SMS. Your phone number will not be shared. It will be used only for verification purpose.</string>
+    <string name="mute">Mute</string>
+    <string name="custom_notifications">Custom notifications</string>
+    <string name="phoneList">Contacts</string>
+    <string name="people">People</string>
+    <string name="radar">Radar</string>
+    <string name="spider">SPIDER</string>
+    <string name="empty_view_people">No Peoples found</string>
+    <string name="you_have_a_new_secret_message">You got a secret Message</string>
+    <string name="you_have_a_new_message">You got a Message</string>
+    <string name="chats_and_calls">Chat</string>
+    <string name="rate_app">Rate App</string>
+    <string name="network_status">Network status</string>
+    <!-- cropping util -->
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="message_notifications">Message Notification</string>
+    <string name="group_notifications">Group Notifications</string>
+    <string name="call_notifications">Call Notifications</string>
+    <string name="popup_notification">Popup Notification</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="select_priority">Select Priority</string>
+    <string name="select_notification">Select Priority</string>
+    <string name="automatically_save_photos">Automatically save photos and video that \nyou recieve into the camera rolls....</string>
+    <string name="preview_messages_text">Preview Message text inside new \nmessage notification</string>
+    <string name="added_friend">Added Friends</string>
+    <string-array name="vibrate_option">
+        <item>Off</item>
+        <item>Default</item>
+        <item>Short</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="notification_option">
+        <item>No popup</item>
+        <item>Only when screen "on"</item>
+        <item>Only when screen "off"</item>
+        <item>Always show popup</item>
+    </string-array>
+
+    <string name="delete_broadcast_list">Delete Broadcast List</string>
+    <string name="enter_broadcast_name">Enter broadcast name</string>
+    <string name="error_add_participant_broadcast">Please add atleast 1 recipients to create broadcast list</string>
+    <string name="remove_from_broadcast">Remove from broadcast list</string>
+    <string name="select_contact">Select Contact</string>
+    <string name="view_user">User info</string>
+    <string name="view_group_Info">Group info</string>
+    <string name="view_broadcast_info">Broadcast list info</string>
+
+    <string name="action_log_out">Log out</string>
+    <string name="login_as">Login as</string>
+    <string name="logged_in_as">Logged In as</string>
+    <string name="outputing_audio_call">Outputing Audio Call - </string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="also_on_call">Also on call:</string>
+    <string name="edit_opponents_list">Edit opponents list</string>
+    <string name="incoming_audio_call">Incoming audio call</string>
+    <string name="incoming_video_call">Incoming video call</string>
+    <string name="connect">Connect...</string>
+    <string name="checking">Checking...</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="call_state_incoming">Incoming Call</string>
+    <string name="call_state_outgoing">Outgoing Call</string>
+    <string name="call_state_missed">Missed Call</string>
+
+    <string name="users_tag">webrtcusers</string>
+    <string name="sticker_tag">sticker_tag</string>
+
+    <string name="welcoming_message">Login as any user on this deviсe and another(s) users on another device</string>
+    <string name="select_user_to_call">Select Users You Want to Call</string>
+
+    <string name="new_audio_call">Start audio call</string>
+    <string name="new_video_call">Start video call</string>
+    <string name="claer_call_logs">Clear call logs</string>
+
+
+    <string name="btn_audio_call">AUDIO CALL</string>
+    <string name="btn_video_call">VIDEO CALL</string>
+    <string name="opponentsListActionBarTitle"><![CDATA[Video & Audio Group Chat Sample]]></string>
+    <string name="current_version">0.9.1</string>
+    <string name="rejected">Rejected</string>
+    <string name="noAnswer">No answer</string>
+    <string name="hungUp">Hung up</string>
+    <string name="closed">Closed</string>
+    <string name="time_out">Time Out</string>
+    <string name="failed">Failed</string>
+    <string name="WIFI_DISABLED">Call was stoped because connection was lost</string>
+    <string name="NETWORK_ABSENT">Connection lost</string>
+    <string name="app_call">ApekSHAH Call</string>
+    <string name="decline_call">Decline</string>
+    <string name="answer_call">Answer</string>
+    <string name="message_call">Message</string>
+
+    <!-- Settings strings. -->
+    <string name="pref_default_value">Default</string>
+
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video resolution.</string>
+    <string name="pref_resolution_dlg">Enter RTC local video resolution.</string>
+    <string name="pref_resolution_default">0</string>
+
+    <string name="pref_fps_key">fps_preference</string>
+    <string name="pref_fps_title">Camera fps.</string>
+    <string name="pref_fps_dlg">Enter local camera fps.</string>
+    <string name="pref_fps_default">0</string>
+
+    <string name="pref_startbitrate_key">startbitrate_preference</string>
+    <string name="pref_startbitrate_title">Start bitrate setting.</string>
+    <string name="pref_startbitrate_dlg">Start bitrate setting.</string>
+    <string name="pref_startbitrate_default">Default</string>
+
+    <string name="pref_startbitratevalue_key">startbitratevalue_preference</string>
+    <string name="pref_startbitratevalue_title">Video encoder start bitrate.</string>
+    <string name="pref_startbitratevalue_dlg">Enter video encoder start bitrate in kbps.(Max is 2000)</string>
+    <string name="pref_startbitratevalue_default">1000</string>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec.</string>
+    <string name="pref_videocodec_dlg">Select default video codec.</string>
+    <string name="pref_videocodec_default">2</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration.</string>
+    <string name="pref_hwcodec_dlg">Use hardware accelerated video codec (if available).</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+    <string name="pref_room_server_url_default" translatable="true">https://apprtc.appspot.com</string>
+
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="true">false</string>
+    <string name="pref_audiocodec_key">pref_audio_codec</string>
+    <string name="pref_audiocodec_title">Default audio codec</string>
+    <string name="pref_audiocodec_def">ISAC</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec</string>
+    <string name="accepted">Accepted</string>
+    <string name="error_authentication_violation">Authentication Violation</string>
+
+
+    <string name="push_shared_contact">Shared contact</string>
+    <string name="push_shared_video">Sent you a video</string>
+    <string name="push_shared_image">Sent you an image</string>
+    <string name="push_shared_file">Shared a file</string>
+    <string name="push_shared_theme">Changed a chat theme</string>
+    <string name="push_shared_voice">Sent you a voice Message</string>
+    <string name="push_shared_sticker">Sent you a sticker</string>
+    <string name="push_shared_location">Shared location</string>
+
+    <string name="tell_a_friend_using">Tell a Friend using...</string>
+    <string name="tell_a_friend_message">Hey, I just downloaded ApekSHAH on my android. It is smartphone messenger which replaces SMS. This app even lets me send pictures, video and other Multimedia! Get it now from http://www.ciaoim.com/</string>
+    <string name="empty_groups_blank">You don\'t have any groups on ApekSHAH yet!</string>
+    <string name="default_group">You haven\'t created any group yet!</string>
+
+    <string name="spider_store">Spider Store</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+
+    <string name="message_info">Message Info</string>
+    <string name="read">Read</string>
+    <string name="delivered">Delivered</string>
+    <string name="delete_from_myself">Delete</string>
+    <string name="delete_from_everyone">Recall</string>
+    <string name="message_has_been_deleted">Message has been removed.</string>
+    <string name="timeline">Timeline</string>
+    <string name="spider_details">Spider Detail</string>
+    <string name="share_with">Share with</string>
+    <string name="public_">Public</string>
+    <string name="private_">Private</string>
+    <string name="public_msg">Anyone on or off ApekSHAH</string>
+    <string name="friends">Friends</string>
+    <string name="friends_msg">Your friends on ApekSHAH</string>
+    <string name="only_me">Only Me</string>
+    <string name="only_me_msg">Only Me</string>
+    <string name="tagable_frnd">Taggable Friends</string>
+    <string name="tagable_frnd_msg">Taggable Friends</string>
+    <string name="comments">Comments</string>
+
+    <string name="follow_">+  Follow</string>
+    <string-array name="list_privacy_name">
+        <item>Friends</item>
+        <item>Only Me</item>
+        <item>Taggable Friends</item>
+    </string-array>
+
+    <string-array name="list_privacy_description">
+        <item>Your friends on ApekSHAH</item>
+        <item>Only Me</item>
+        <item>Taggable Friends</item>
+    </string-array>
+
+
+    <string name="timeline_msg">To create a post, tap on the add(+) icon at the bottom right corner.</string>
+    <string name="notification_msg">Your notification will appear here</string>
+    <string name="call_to_get_verification_code">Call To Get verification Code</string>
+    <string name="post_description">Please write something or attach a photo to update your post. </string>
+    <string name="hide_post">Hide Post</string>
+    <string name="report_span">Report as Spam</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="reshare_post">Reshare Post</string>
+    <string name="confirm_reshare">Do you want to reshare?</string>
+    <string name="notification_center_msg">Your notification will appear here.</string>
+    <string name="timeline_settings">Thoughts </string>
+    <string name="delete_post_confirmation">Are you sure you want to delete this post?</string>
+    <string name="taggable_alert">Please select atleast a friend</string>
+    <string name="enter_your_text_here">Enter your text here</string>
+    <string name="write_something_about_this_post">Write something about this post..</string>
+    <string name="cant_select_more_than_10">You can not select more than 10 images/videos</string>
+    <string name="bye_bye">Bye bye!</string>
+    <string name="take_it">Take it</string>
+    <string name="terms_and_agreement_header_message">In order to connect you with your friends already using ApekSHAH, we want to access your contact list, ApekSHAH will not share this list with anyone. Do you agree?</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify_phone_number">Verify Phone Number</string>
+    <string name="please_wait_for_ten_seconds">Please wait for 10 seconds. If you don\'t receive it, please request for the Verification Code to be resent.</string>
+    <string name="number_confirmanation">NUMBER CONFIRMATION:</string>
+    <string name="confirmation_phone_number">Is your phone number above correct?</string>
+    <string name="yes">Yes</string>
+    <string name="read_more">Read more...</string>
+    <string name="ciaoim_link">www.stonexone.com/</string>
+    <string name="thoughts">Thoughts</string>
+    <string name="all_conversations_cleared">All conversation history cleared !</string>
+    <string name="clear_conversation_message">Clear all conversations, this cannot be undone</string>
+
+    <!-- 18th April. -->
+
+    <string name="media_auto_download">Auto-Download Media</string>
+    <string name="clear_all_conversation">Clear All Conversation</string>
+    <string name="show_preview">Show Preview</string>
+    <string name="preview_message">Preview Message text inside new Message notification</string>
+
+    <string name="allow_me_to_be_tagged">Allow me to be Tagged</string>
+    <string name="post">Post</string>
+    <string name="available">Available</string>
+    <string name="chat_setting">CHAT SETTING</string>
+    <string name="enter_is_send">Enter is send</string>
+    <string name="enter_key_will_add_a_new_line">Enter key will add a new line</string>
+
+    <string name="font_size">Font size:Medium</string>
+    <string name="font_size_for_chat_screen">Font size for chat screen</string>
+
+    <string name="wallpaper">Wallpaper</string>
+    <string name="calling">Calling...</string>
+    <string name="upload_group_icon">Upload Group Icon</string>
+    <string name="continue_">Continue</string>
+    <string name="continue_caps">CONTINUE</string>
+    <string name="you_dont_have_photos_in_your_device_gallery">You don\'t have any photos in your device gallery</string>
+    <string name="by_sign_up_i_accept_term_and_condition">By Signing Up, I accept Terms and Conditions.</string>
+    <string name="user_name">User Name</string>
+    <string name="caller_name">Caller Name</string>
+
+    <!-- 19th April. -->
+    <string name="their_am_using_ciaoim">Hey! theirs am using ApekSHAH </string>
+    <string name="agree_and_continue">Agree &amp; continue</string>
+    <string name="update_profile_text_hint">This is not your username or pin.This name \nwill be visible to your ApekSHAH phoneList</string>
+    <string name="terms_conditions">Terms  &amp; Conditions </string>
+    <string name="about_setting">About</string>
+
+    <string name="wrong_number">EDIT?</string>
+
+    <!-- 20th April-->
+
+    <string name="to">To :</string>
+    <string name="write_something">Write Something...</string>
+    <string name="no">No</string>
+
+    <string name="week_ago"> week ago</string>
+    <string name="weeks_ago"> weeks ago</string>
+    <string name="day_ago"> day ago</string>
+    <string name="days_ago"> days ago</string>
+    <string name="min_ago"> min ago</string>
+    <string name="mins_ago"> min ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="sec_ago"> sec ago</string>
+    <string name="just_now"> Just Now  </string>
+    <string name="created_on"> Created on  </string>
+    <string name="image_not_supported">Image not supported  </string>
+    <string name="of">of</string>
+    <string name="recents">Chats</string>
+    <string name="groups">Groups</string>
+    <string name="screenshot">screenshot</string>
+    <string name="incoming_cal_from">is calling</string>
+    <string name="send_mail">Send mail...</string>
+    <string name="something_went_wrong">Something went wrong!, please try selecting another file</string>
+    <string name="connecting">Connecting...</string>
+    <string name="waiting_for_network">Waiting for network...</string>
+    <string name="initializing_call">Initializing Call...</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="do_you_want_to_clear_entire_call_log">Do you want to clear entire call log?</string>
+    <string name="group_subject">" Type group subject"</string>
+    <string name="invite">Invite</string>
+    <string name="invite_to_ciaiom">Invite to ApekSHAH</string>
+    <string name="check_out_ciaoim_for_your_smartphone"> Check out ApekSHAH for your smartphone. Download it today from</string>
+    <string name="typing">typing...</string>
+    <string name="recording_audio">recording audio......</string>
+
+    <!-- 21st April-->
+    <string name="call_was_stopped_by_timer">Call was stopped by timer.</string>
+    <string name="ongoing_call">OnGoing Call</string>
+    <string name="chat_history_is_attached">Chat history is attached as</string>
+    <string name="file_to_this_email">file to this emailList</string>
+    <string name="type_a_message">Type a Message</string>
+    <string name="online">online</string>
+    <string name="group_owner">Group Owner</string>
+    <string name="group_admin">Group Admin</string>
+    <string name="image_name_error">Image name error, either rename or another</string>
+    <string name="to_send_a_message">to send a Message.</string>
+    <string name="notification_center">Notification Center</string>
+    <string name="at">at</string>
+    <string name="spin">Spin</string>
+    <string name="all_call_logs_cleared">All call logs cleared !</string>
+    <string name="add_a_comment">Add a comment...</string>
+    <string name="set_as_my_profile_photo">Set as my profile photo</string>
+    <string name="set_as_group_icon">Set as group icon</string>
+    <string name="rotate_left">Rotate left</string>
+    <string name="rotate_right">Rotate right</string>
+    <string name="silent">Silent</string>
+    <string name="save_incoming_media">Save Incoming Media</string>
+
+
+    <!-- 25th April-->
+    <string name="pick_location">pick location</string>
+    <string name="send_your_location">Send your Location</string>
+    <string name="you_have_been_blocked_by">You have been blocked by</string>
+    <string name="cant_send_messages_to_your_blocked_contacts">Can\'t send messages to your blocked Contacts</string>
+    <string name="unblock">Unblock </string>
+    <string name="file_size_must_be_less_then_16mb">File size must be less than 16MB </string>
+    <string name="send_a_file">Send a File</string>
+    <string name="press_and_hold_to_view">	PRESS AND HOLD TO VIEW</string>
+    <string name="joined">	joined	</string>
+    <string name="load_earlier_strings">Load Earlier Messages</string>
+    <string name="missed_calls"> Missed Call	</string>
+    <string name="photos">Photos</string>
+    <string name="tic_tac_toe">Tic-tac-toe	</string>
+    <string name="time_machine">Time Machine	</string>
+    <string name="heart_beat_rate">	Heart Beat Rate	</string>
+    <string name="cross_path">Cross Path</string>
+
+
+    <!-- Group Notification -->
+
+    <string name="become_admin">You\re now an admin</string>
+    <string name="become_owner">You\'re now an owner</string>
+    <string name="left">left</string>
+    <string name="created_group">created group</string>
+    <string name="added">added</string>
+    <string name="changed_group_subject_to">changed subject to</string>
+    <string name="changed_group_s_icon">changed group\'s icon</string>
+    <string name="remove_from_group">Remove from group</string>
+    <string name="make_admin">Make admin</string>
+    <string name="removed">removed</string>
+    <string name="created_this_group">created this group</string>
+    <string name="were_added">You were added</string>
+
+
+    <!-- 26th April-->
+    <string name="mobile">Mobile</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="other">Other</string>
+    <string name="set_group">Set group	</string>
+    <string name="set_group_icon_for">Set group icon for 	</string>
+    <string name="contact_added_successfully">Contact Added Successfully 	</string>
+    <string name="send_email">Send emailList..	</string>
+    <string name="you_created_a_broadcast_list_with">You created a broadcast list with</string>
+    <string name="forward_message">Forward Message	</string>
+    <string name="forward_to">Forward</string>
+    <string name="at_">at </string>
+    <string name="shared_">shared</string>
+    <string name="post_">\'s Post</string>
+    <!-- 27h April-->
+    <string name="are_you_sure_to_send">Are you sure to send</string>
+    <string name="file_to">file to</string>
+    <string name="browse_a_file">Browse a file</string>
+    <string name="pick_video">Pick Video</string>
+    <string name="call_ended">Call ended</string>
+    <string name="uploaded_sucessfully"> Uploaded Sucessfully.</string>
+    <string name="value_cant_be_empty"> Value can\'t be empty:</string>
+    <string name="max_value_is"> Max value is:</string>
+    <string name="buffering"> Buffering...</string>
+    <string name="some_error_occured_please_reload_video"> Some error occured, Please reload video!</string>
+    <string name="yesterday">yesterday</string>
+    <string name="take_video"> Take Video</string>
+    <string name="network"> Network</string>
+    <string name="name_cannot_be_empty"> Name can\'t be empty</string>
+    <string name="uploading_file"> uploading file..</string>
+    <string name="you_do_not_have_photos_in_gallery">You don\'t have any photos in your device gallery</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="to_">To:</string>
+    <string name="image">image</string>
+    <string name="video">video</string>
+    <string name="theme">Theme</string>
+    <string name="go">GO!</string>
+    <string name="brush">Brush</string>
+    <string name="clipart">Clipart</string>
+    <string name="text">Text</string>
+    <string name="gallery">Gallery</string>
+    <string name="seconds">seconds</string>
+    <string name="second">second</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="minute">minute</string>
+    <string name="minutes">minutes</string>
+    <string name="day">day</string>
+    <string name="days">days</string>
+    <string name="week">week</string>
+    <string name="off">off</string>
+
+    <string name="people_in">people in</string>
+    <string name="call_end">Bye Bye </string>
+    <string name="call_end_">Call End </string>
+
+    <string-array name="call_reject_message">
+        <item>Can\'t talk now. What\'s up?</item>
+        <item>I\'ll call you right back.</item>
+        <item>I\'ll call you later.</item>
+        <item>Can\'t talk now. Call me later?</item>
+        <item>Custom Message...</item>
+    </string-array>
+
+
+    <string name="new_update_title">New Update</string>
+    <string name="new_update_message">A new feature of unique Cioa ID is now added on the platform. This will allow your non-contact book people to find and send you friend request without disclosing your mobile detail.\nPlease fill in your unique Ciao ID.</string>
+    <string name="hint_ciao_id">Ciao id is unique id that will be used as your identity.</string>
+    <string name="ciao_id">Ciao Id</string>
+    <string name="ciaoid_size">It should be min 3 characters</string>
+    <string name="hint_full_name">Enter your full name</string>
+    <string name="enter_ciaoid">Please enter ciaoId</string>
+    <string name="enter_ciao_password">Please enter password</string>
+    <string name="sync_contact"> Please wait a moment. it will take some time to synchronize your phoneList.</string>
+    <string name="net_disconnected">Unable to connect.Please check that you are connected to the Internet and try again.</string>
+    <string name="welcome_whatsAround">Welcome to ApekSHAH</string>
+    <string name="msg_default_status">Status</string>
+    <string name="cancelled_by_user">User Cancelled</string>
+    <string name="barcode_successful">Scanned Successful!</string>
+    <string name="delete_account">Account delete</string>
+    <string name="tags">Tags</string>
+    <string name="delete_group">Delete Group</string>
+    <string name="unable_edit_name">Unable to change name because you are not a participant</string>
+    <string name="unable_edit_image">Unable to edit image because you are not a participant</string>
+    <string name="audio">Audio</string>
+    <string name="ciaoim_web">Ciaoim web</string>
+
+    <!-- 27th july-->
+
+    <string name="general_notifications">General Notifications</string>
+    <string name="thoughts_setting">Thoughts Setting</string>
+    <string name="tell_a_friend">Tell a Friend</string>
+    <string name="me">Me</string>
+    <string name="audio_could_not_be_recorded_during_ongoing_call">Audio could not be recorded during Ciaoim call</string>
+    <string name="tap_to_return_to_call">Tap to return to call.</string>
+    <string name="user_busy">User is busy</string>
+    <string name="user_busy_please_call_after_some_time">User is busy, please call after some time.</string>
+
+    <string name="scan_code">Scan Code</string>
+    <string name="next">Next</string>
+    <string name="retry">Retry</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Login</string>
+    <string name="ciaoID">CiaoID</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_ciaoid">Forgot CiaoId?</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="new_user">New User</string>
+    <string name="existing_user">Existing User</string>
+    <string name="code">123456</string>
+    <string name="call_for_code">Call To Get Verification Code</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_number">Please enter your registered detail</string>
+    <string name="one_time_message">ApekSHAH Messenger will send a one time SMS message to recover your password</string>
+    <string name="one_time_ciaoid_message">ApekSHAH Messenger will send a one time SMS message to recover your ciaoid</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="title_forgot_ciaoid">Forgot CiaoId</string>
+    <string name="submit">Submit</string>
+    <string name="add_friends">ADD FRIENDS</string>
+    <string name="accept_request">Friend Request</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="send_request">Send Request</string>
+    <string name="request_sent">Request Sent</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="enter_ciaoID">Enter CiaoID</string>
+    <string name="no_user_found">No User Found</string>
+    <string name="no_notification">No Notification, Yet!</string>
+    <string name="notify_user">We will let you know when we have  </string>
+    <string name="no_message_yet">No message, yet !</string>
+    <string name="to_start_chat_with_your_friends">To start chat with your friends \n Swipe left or Tap Contacts.</string>
+    <string name="guest_conduct">Guest Conduct \n Policy</string>
+
+    <string name="notify_user_remain">got something new for you </string>
+    <string name="accept_request_msg"> accepted your request</string>
+    <string name="sent_request_msg"> sent you request</string>
+    <string name="decline_request_msg"> declined you request</string>
+    <string name="request_declined">Request Declined</string>
+    <string name="request_accepted">Request accepted</string>
+
+    <string name="add_friend"> Add Friend</string>
+    <string name="Accept_request"> Friend Request</string>
+    <string name="resend_password"> Your Password has been sent to your registered detail</string>
+    <string name="valid_ciao_and_password">Enter Valid ID and Password</string>
+    <string name="reconnecting">Reconnecting&#8230;</string>
+    <string name="do_you_want_to_delete_your_ciaoim_account">Do you want to delete your ApekSHAH account ?</string>
+    <string name="delete">Delete</string>
+
+
+    <string name="ciaoid_length">CiaoId should be minimum 3 character</string>
+    <string name="ciao_password_validation">Password should be minimum 6 character </string>
+    <string name="domain_name">"@ciaoim.com"</string>
+    <string name="ciaoid_already_exist">"CiaoID already exist, please enter another CiaoID."</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="is_on_another_call">is on another phone call.</string>
+    <string name="slide_to_cancel">Slide to Cancel</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="forgot_password_only">Forgot Password</string>
+    <string name="send_password">Send Password</string>
+    <string name="recover_password">ApekSHAH Messenger will send your password to your registered detail</string>
+    <string name="password_updated_sucessfully">Password updated successfully.</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="delete_my_account">Delete My Account</string>
+    <string name="you_added">You added</string>
+    <string name="more_recipient">more recipient(s)</string>
+    <string name="you_updated">You updated broadcast </string>
+    <string name="participants_list">participant list to</string>
+    <string name="channel">wach</string>
+
+    <string name="followers">Followers</string>
+    <string name="posts">Posts</string>
+
+    <string name="following">Following</string>
+    <string name="profile_chat_setting">Chat Settings</string>
+    <string name="account">Account</string>
+    <string name="profile_mysignal">My Signals</string>
+
+    <string name="clear_all_chat">Clear All Chat</string>
+    <string name="block_this_contact">Block this Contact</string>
+
+    <string name="view_all_media">View All Media</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="signals">Signals</string>
+    <string name="post_signal">Post Signals</string>
+    <string name="mute_signal">Mute</string>
+    <string name="my_signal_info">My Signal Info</string>
+    <string name="unmute_signal">Unmute signal</string>
+    <string name="about_signal">ABOUT SIGNAL</string>
+    <string name="earn_money">EARN MONEY</string>
+    <string name="shared_on_facebook">Share on facebook</string>
+    <string name="signal_are_broadcasting">Signal are the broadcasting message that</string>
+    <string name="will_be_transfered">will be transfered to all your friends and the</string>
+    <string name="people_who_are">people who are following you</string>
+    <string name="publish_the_message">Publish the message or media with facebook</string>
+    <string name="on_single_click">on one single click. In order to give permission</string>
+    <string name="to_post_on_your_facebook">to post on your facebook. Please click on the</string>
+    <string name="checkbox_button">checkbox button</string>
+    <string name="you_can_earn">You can earn money with signals. Every time</string>
+    <string name="you_post_something">you post something on signal. We are going to</string>
+    <string name="post_some_of">post some of advertisment. When your friends</string>
+    <string name="click_on_them">click on them you will get the money in your </string>
+    <string name="ciao_wallet">Ciao Wallet</string>
+
+    <!--web rtc parameters-->
+    <string name="downloading">Downloading</string>
+
+    <string name="summary_message">%1$s: %2$s</string>
+    <string name="summary_invitation">Room Invitation</string>
+    <string name="summary_user_invitation">%s\'s invitation</string>
+    <string name="summary_user_sent_image">%1$s sent an image.</string>
+
+    <string name="notice_room_invite_no_invitee">%s\'s invitation</string>
+    <string name="notice_room_invite">%1$s invited %2$s</string>
+    <string name="notice_room_invite_you">%1$s invited you</string>
+    <string name="notice_room_join">%1$s joined</string>
+    <string name="notice_room_leave">%1$s left</string>
+    <string name="notice_room_kick">%1$s kicked %2$s</string>
+    <string name="notice_room_unban">%1$s unbanned %2$s</string>
+    <string name="notice_room_ban">%1$s banned %2$s</string>
+    <string name="notice_room_withdraw">%1$s withdrew %2$s\'s invitation</string>
+    <string name="notice_avatar_url_changed">%1$s changed their avatar</string>
+    <string name="notice_display_name_set">%1$s set their display name to %2$s</string>
+    <string name="notice_display_name_changed_from">%1$s changed their display name from %2$s to %3$s</string>
+    <string name="notice_display_name_removed">%1$s removed their display name</string>
+    <string name="notice_display_name_changed">%1$s changed their display name to %2$s</string>
+    <string name="notice_topic_changed">%1$s changed the topic to: %2$s</string>
+    <string name="notice_room_name_changed">%1$s changed the room name to: %2$s</string>
+    <string name="notice_outgoing_call">Outgoing Call</string>
+    <string name="notice_incoming_call">Incoming Call</string>
+    <string name="notice_placed_video_call">%s placed a video call.</string>
+    <string name="notice_placed_voice_call">%s placed a voice call.</string>
+    <string name="notice_answered_call">%s answered the call.</string>
+    <string name="notice_ended_call">%s ended the call.</string>
+    <string name="notice_made_future_room_visibility">%1$s made future room history visible to %2$s</string>
+    <string name="notice_room_visibility_invited">all room members, from the point they are invited.</string>
+    <string name="notice_room_visibility_joined">all room members, from the point they joined.</string>
+    <string name="notice_room_visibility_shared">all room members.</string>
+    <string name="notice_room_visibility_world_readable">anyone.</string>
+    <string name="notice_room_visibility_unknown">unknown (%s).</string>
+
+    <string name="notice_requested_voip_conference">%1$s requested a VoIP conference</string>
+    <string name="notice_voip_started">VoIP conference started</string>
+    <string name="notice_voip_finished">VoIP conference finished</string>
+
+    <string name="notice_avatar_changed_too">(avatar was changed too)</string>
+    <string name="notice_room_name_removed">%1$s removed the room name</string>
+    <string name="notice_room_topic_removed">%1$s removed the room topic</string>
+    <string name="notice_event_redacted">redacted %1$s </string>
+    <string name="notice_event_redacted_by"> by %1$s</string>
+    <string name="notice_event_redacted_reason">  [reason: %1$s]</string>
+    <string name="notice_profile_change_redacted">%1$s updated their profile %2$s</string>
+    <string name="notice_room_created">%1$s created the room</string>
+    <string name="notice_room_join_rule">The join rule is: %1$s</string>
+    <string name="notice_room_power_level_intro">The power level of room members are:</string>
+    <string name="notice_room_power_level_acting_requirement">The minimum power levels that a user must have before acting are:</string>
+    <string name="notice_room_power_level_event_requirement">The minimum power levels related to events are:</string>
+    <string name="notice_room_aliases">The room aliases are: %1$s</string>
+    <string name="notice_image_attachment">image attachment</string>
+    <string name="notice_audio_attachment">audio attachment</string>
+    <string name="notice_video_attachment">video attachment</string>
+    <string name="notice_location_attachment">location attachment</string>
+    <string name="notice_file_attachment">file attachment</string>
+    <string name="notice_invalid_attachment">invalid attachment</string>
+    <string name="notice_unsupported_attachment">Unsupported attachment: %1$s</string>
+    <string name="notice_feedback">Feedback event (id: %1$s): %2$s</string>
+    <string name="notice_redaction">%1$s redacted an event (id: %2$s)</string>
+    <string name="notice_error_unsupported_event">Unsupported event</string>
+    <string name="notice_error_unexpected_event">Unexpected event</string>
+    <string name="notice_error_unknown_event_type">Unknown event type</string>
+    <string name="notice_room_third_party_invite">%1$s sent an invitation to %2$s to join the room</string>
+    <string name="notice_room_third_party_registered_invite">%1$s accepted the invitation for %2$s</string>
+
+    <!-- Room Screen -->
+    <string name="could_not_redact">Could not redact</string>
+    <string name="unable_to_send_message">Unable to send message</string>
+    <string name="downloading_dot">Downloading ...</string>
+    <string name="uploading_dot">Uploading ...</string>
+
+    <string name="message_uploading">Uploading&#8230;</string>
+    <string name="message_failed_to_upload">Failed to upload image</string>
+
+    <!-- general errors -->
+    <string name="network_error">Network error</string>
+    <string name="matrix_error">Matrix error</string>
+    <string name="unexpected_error">Unexpected error</string>
+
+    <!-- Home Screen -->
+    <string name="users"> users</string>
+    <string name="user"> user</string>
+
+    <!-- Last seen time -->
+    <string name="last_seen_secs">%ds</string>
+    <string name="last_seen_mins">%dm</string>
+    <string name="last_seen_hours">%dh</string>
+    <string name="last_seen_days">%dd</string>
+
+    <!-- call events -->
+    <string name="call_invitation">Call invitation.</string>
+    <string name="call_hungup">Call hung up.</string>
+    <string name="call_answered">Call answered.</string>
+    <string name="call_error_user_media_failed">Camera initialization error.</string>
+    <string name="call_error_ice_failed">Connection failed..</string>
+
+    <!-- room error messages -->
+    <string name="room_error_join_failed_empty_room">It is not currently possible to re-join an empty room.</string>
+
+    <!-- unrecognized SSL certificate -->
+    <string name="ssl_trust">Trust</string>
+    <string name="ssl_do_not_trust">Do not trust</string>
+    <string name="ssl_logout_account">Logout</string>
+    <string name="ssl_remain_offline">Ignore</string>
+    <string name="ssl_fingerprint_hash">Fingerprint (%s):</string>
+    <string name="ssl_could_not_verify">Could not verify identity of remote server.</string>
+    <string name="ssl_cert_not_trust">This could mean that someone is maliciously intercepting your traffic, or that your phone does not trust the certificate provided by the remote server.</string>
+    <string name="ssl_cert_new_account_expl">If the server administrator has said that this is expected, ensure that the fingerprint below matches the fingerprint provided by them.</string>
+    <string name="ssl_unexpected_existing_expl">The certificate has changed from one that was trusted by your phone. This is HIGHLY UNUSUAL. It is recommended that you DO NOT ACCEPT this new certificate.</string>
+    <string name="ssl_expected_existing_expl">The certificate has changed from a previously trusted one to one that is not trusted. The server may have renewed its certificate. Contact the server administrator for the expected fingerprint.</string>
+    <string name="ssl_only_accept">ONLY accept the certificate if the server administrator has published a fingerprint that matches the one above.</string>
+    <string name="ssl_fingerprint_example">00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</string>
+    <string name="username">Username</string>
+    <string name="hs_url">Home Server URL</string>
+
+
+    <!-- call string -->
+    <string name="call_connected">Call connected</string>
+    <string name="call_connecting">Call connecting...</string>
+    <string name="call_ring">Calling...</string>
+    <string name="incoming_voice_call">Incoming Voice Call</string>
+    <string name="call_invite_expired">Call Invite Expired</string>
+    <string name="call_in_progress">Call In Progress</string>
+
+
+    <string name="active_call">Active call</string>
+    <string name="ongoing_conference_call"> Ongoing conference call...</string>
+    <string name="ongoing_conference_call_voice">voice</string>
+    <string name="ongoing_conference_call_video">video</string>
+    <string name="cannot_start_call">Cannot start the call, please try later</string>
+    <string name="room_url">Room URL</string>
+    <string name="missing_permissions_warning">"Due to missing permissions, some features may be missing..</string>
+    <string name="missing_permissions_to_start_conf_call">You need permission to invite to start a conference in this room</string>
+    <string name="missing_permissions_title_to_start_conf_call">Cannot start call</string>
+    <string name="call_error_user_not_responding">The remote side failed to pick up.</string>
+    <string name="call_error_camera_init_failed">Cannot initialize the camera</string>
+    <string name="call_error_answered_elsewhere">call answered elsewhere</string>
+    <string name="call_error_peer_hangup">peer hung up</string>
+    <string name="call_error_peer_hangup_elsewhere">call hung up elsewhere</string>
+    <string name="call_error_peer_cancelled_call">Call ended</string>
+
+
+    <!-- permissions Android M -->
+    <string name="permissions_rationale_popup_title">%s permissions</string>
+    <string name="permissions_rationale_msg_title">You are about to be asked to grant permissions..</string>
+    <string name="permissions_rationale_msg_storage">%s needs access to media files to display photos in the media picker or to store your medias.\n\n</string>
+    <string name="permissions_rationale_msg_camera">%s needs access to the camera to take pictures, video calls..</string>
+    <string name="permissions_rationale_msg_record_audio">%s needs access to the microphone to perform audio calls</string>
+    <string name="permissions_rationale_msg_contacts">Your address book emails are uploaded for discovering matrix IDs.</string>
+    <string name="permissions_msg_contacts_warning_other_androids">Your address book emails are uploaded for discovering matrix IDs.\nAllow %s to access your phoneList ?</string>
+    <string name="permissions_action_not_performed_missing_permissions">Sorry.. Action not performed, due to missing permissions</string>
+
+    <string name="login_error_already_logged_in">Already logged in</string>
+    <string name="login_error_must_start_http">URL must start with http[s]://</string>
+    <string name="login_error_network_error">Unable to login: Network error</string>
+    <string name="login_error_unable_login">Unable to login</string>
+    <string name="login_error_registration_network_error">Unable to register: Network error</string>
+    <string name="login_error_unable_register">Unable to register</string>
+    <string name="login_error_unable_register_mail_ownership">Unable to register : emailList ownership failure</string>
+    <string name="login_error_invalid_credentials">Enter valid credentials</string>
+    <string name="login_error_invalid_home_server">Enter valid URL</string>
+
+
+    <string name="room_participants_title">Participants</string>
+    <string name="room_participants_add_participant">Add participant</string>
+    <string name="room_participants_one_participant">1 participant</string>
+    <string name="room_participants_multi_participants">%s participants</string>
+    <string name="room_participants_leave_prompt_title">Leave room</string>
+    <string name="room_participants_leave_prompt_msg">Are you sure you want to leave the room?</string>
+    <string name="room_participants_remove_prompt_title">Remove?</string>
+    <string name="room_participants_remove_prompt_msg">Are you sure you want to remove %s from this chat?</string>
+    <string name="room_participants_admin_name">%s (admin)</string>
+    <string name="room_participants_create">Create</string>
+    <string name="room_participants_invite_another_user">Invite another user</string>
+
+    <string name="room_participants_active">Active</string>
+    <string name="room_participants_online">Online</string>
+    <string name="room_participants_offline">Offline</string>
+    <string name="room_participants_unkown">Unkwown</string>
+    <string name="room_participants_idle">Idle</string>
+    <string name="room_participants_now">now</string>
+    <string name="room_participants_ago">ago</string>
+    <string name="room_participants_invite">Invite</string>
+    <string name="room_participants_leave">Left</string>
+    <string name="room_participants_ban">Banned</string>
+
+    <!--  Time -->
+    <string name="format_time_s">s</string>
+    <string name="format_time_m">m</string>
+    <string name="format_time_h">h</string>
+    <string name="format_time_d">d</string>
+
+    <string name="room_displayname_invite_from">Invite from %s</string>
+    <string name="room_displayname_room_invite">Room Invite</string>
+    <string name="room_displayname_two_members">%1$s and %2$s</string>
+    <string name="room_displayname_more_than_two_members">%1$s and %2$d others</string>
+    <string name="room_displayname_no_title">Empty room</string>
+    <string name="share_your_signal_link">Share your signal link with others, so that other can see your signals </string>
+
+    <string name="post_signal_facebook">Post your signal on facebook</string>
+    <string name="unable_to_initialize_call">Unable to initialize  Caioim call.</string>
+    <string name="message">Message</string>
+    <string name="my_profile">My Profile</string>
+    <string name="action_send_message">Send Messages</string>
+    <string name="delete_all_chat_for">Delete all messages of</string>
+    <string name="unblock_this_contact">Unblock this contact</string>
+    <string name="unmute">Unmute</string>
+    <string name="chats">Chats</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="blocked_contacts_screen">Blocked contact will no longer be able to call you or send you messages</string>
+    <string name="people_you_may_know">People You may know</string>
+    <string name="favourites">Favourites</string>
+    <string name="find_friends">Find friends</string>
+    <string name="cannot_record_voice_note_during_ciaoim_call">Cannot record voice note during Ciaoim call.</string>
+    <string name="required_permissions">Please enable required permissions</string>
+    <string name="color">Color</string>
+    <string name="Color_popup_title">Pick a color for this conversation</string>
+    <string name="max_limit_reached">Maximum limit reached</string>
+    <string name="contact_share_msg">You can not share empty contact</string>
+    <!--    bottom bar -->
+
+    <!-- undefined-->
+    <string name="initializing_hold">Initializing....</string>
+    <string name="wait_for_a_moment">Please wait for a moment</string>
+    <string name="themes_chat">Chat themes</string>
+    <string name="message_from">Message from</string>
+    <string name="privacy_policy_url">https://proxy.ciaoim.com/privacy-english.html</string>
+    <string name="terms_conditions_url">https://proxy.ciaoim.com/terms-english.html</string>
+    <string name="to_place_a_call">to place a call</string>
+    <string name="action_broadcast_info">Broadcast Info</string>
+    <string name="otp_sent">Otp sent successfully!!</string>
+    <string name="do_u_want_close">Do you want to close?</string>
+    <string name="vcard_update_fail">Unable to update profile, Please try again</string>
+    <string name="ciaoid_start_with_alphanumeric">Please enter a ciaoId that starts and ends with charecters (a-z,0-9,A-z).</string>
+    <string name="ciaoid_with_only_one_dot">Please enter a ciaoId that  has only one dot (.) symbol.</string>
+    <string name="update_required_message">Hi,New version is available on Play Store. Kindly update your app</string>
+    <string name="update">UPDATE</string>
+    <string name="update_">Update</string>
+
+    <string name="ciaoim_update_link">https://play.google.com/store/apps/details?id=com.seearound</string>
+    <string name="cannot_place_new_call_during_ongoing_ciaoim_call">Cannot place a new call during ongoing ApekSHAH call.</string>
+    <string name="read_by">READ BY</string>
+    <string name="delivered_to">DELIVERED TO</string>
+
+    <string name="hold_user_message">Chat with your friends, share photos,videos and files instantly with high quality.</string>
+    <string name="stickers_gif">StickerGif</string>
+    <string name="added_members">Added members</string>
+    <string name="added_members_to_call">Add Members To Group Call</string>
+    <string name="incoming_conference_call">Incoming Conference call</string>
+    <string name="maximum_participants_list_reached_in_group_conference_call">Maximum partcipant list reachedin group conference call.</string>
+    <string name="documents">Docs</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="has_joined">has joined ApekSHAH</string>
+    <string name="event_price">Enter price</string>
+    <string name="free">FREE</string>
+    <string name="custom_pay">Custom Pay</string>
+    <string name="FRee">Free</string>
+    <string name="AddDoc">Add Document</string>
+    <string name="event_privacy">Event Privacy</string>
+    <string name="add_your_private_group">Add your private groups</string>
+    <string name="upcomming_event">Upcoming Event</string>
+    <string name="event_history">Event History</string>
+    <string name="event_attending">Event Attending</string>
+    <string name="event_attended">Event Attended</string>
+    <string name="choose_your_event_type">Choose your event type</string>
+    <string name="date">Date</string>
+    <string name="from">From :</string>
+    <string name="view">Views</string>
+    <string name="last">Last Date</string>
+    <string name="delete_local_group">Do you want to delete group?</string>
+    <string name="private_member">Please select a member</string>
+    <string name="default_status">Hey I\'m using !</string>
+    <string name="delete_comment">Do you want to delete?</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="total_events">Total Events</string>
+    <string name="trending_events">Trending Events</string>
+    <string name="filter_by_icon">Filter</string>
+    <string name="nearby_events">Near by events</string>
+    <string name="Cash_term">Transaction Logs</string>
+    <string name="purchase_history">Purchase History</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="i_agree">I agree to the</string>
+    <string name="navigate_in_map">Open in Google Map</string>
+    <string name="collect_cash">Transaction Logs</string>
+    <string name="withfraw">Withdraw</string>
+    <string name="event_liked">%1$s liked your post.</string>
+    <string name="event_disliked">%1$s disliked your post.</string>
+    <string name="event_commented">%1$s commented on your post.</string>
+    <string name="attend_event_notification_red">%1$s is going to attend your event.Click here to see the details.</string>
+
+    <string name="attend_event_notification">Congratulation!!! %1$s is going to attend your event.Click here to see the details.</string>
+    <string name="is_following_you">%1$s is following you.</string>
+    <string name="new_event_notifcation">A new event created that you may wish to attend it.</string>
+    <string name="check_conditions">Please check Terms and Conditions</string>
+
+    <string name="formatted_place_data">
+        Name: %1$s\nAddress: %2$s\nPhone: %3$s\nWebsite: %4$s\nRating: %5$s\nId: %6$s\n
+    </string>
+    <string name="registerd_on">Registered On: </string>
+    <string name="about_me">About me (400 Characters) (Optional)</string>
+    <string name="video_record">Video</string>
+    <string name="save">Save</string>
+    <string name="short_seconds">sec</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="trimming_progress">Processing video</string>
+    <string name="video_saved_at">video saved at</string>
+    <string name="cancel_event">Cancel Event</string>
+    <string name="get_ticket">Get Ticket</string>
+    <string name="scan_qrcode">Scan QR Code</string>
+    <string name="enter_price">Enter price</string>
+    <string name="congratulations_you_have_joined">Congratulation!!! You are going to attend this event.</string>
+    <string name="share_message">Check out ApekSHAH on your smartphone. Download it today from https://seearound.com</string>
+
+    <string name="tap_to_create_your_event">Tap to create your own Event \n and be a STAR</string>
+    <string name="tap_to_filter_events">Tap here to filter events.</string>
+    <string name="tap_to_view_event">Tap here to view the detail \n of  event.</string>
+    <string name="tap_search_events_by_name">Search events by location, name, \n organizer name and category</string>
+    <string name="tap_here_to_attend_this_event">Tap here to attend this event.</string>
+    <string name="type_here">Type here...</string>
+    <string name="your_event_has_been_created">Your event has been created successfully.</string>
+    <string name="promote_your_event_by_sharing">Promote your event by sharing</string>
+    <string name="share_event_with_friends">Share event with friends.</string>
+    <string name="your_payment_is_sucessfull">Your payment is sucessfull.</string>
+    <string name="your_are_attending_this_event">You are attending this event.</string>
+    <string name="minimum_age_to_join">Minimum age to join.</string>
+    <string name="last_date_to_join_event_minimum">Event joining time should be atleast 4 hrs ahead from now.</string>
+    <string name="last_date_to_join_event_maximum">Event joining time should be less than event end time.</string>
+    <string name="event_end_message">Event end time should be at least 30 min ahead to event start time.</string>
+    <string name="edit_privacy">You can\'t change Privacy.</string>
+    <string name="edit_category">You can\'t change Category.</string>
+    <string name="edit_price">You can\'t change Price.</string>
+    <string name="request_for_permission">Request to attend this event</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="rejected_msg">Your request has been rejected</string>
+    <string name="requested">Requested</string>
+    <string name="attending_">Attending</string>
+    <string name="go_now">Go Now</string>
+    <string name="requesting_msg">%1$s is interested to attend your <b>%2$s</b> event. Kindly approve.</string>
+    <string name="congratulation_attending">Congratulation!!! Your request for   <b>%1$s</b>  has been accepted by <b>%2$s</b></string>
+    <string name="congratulation_attending_red">Your request for <b>%1$s</b> has been accepted by <b>%2$s</b></string>
+    <string name="login_text_facebook">Login to your Facebook account to invite all your friends in SeeAround.</string>
+    <string name="login_text_instagram">Login to your Instagram account to invite all your friends in SeeAround.</string>
+
+    <string name="invite_text_instagram">Invite your Instagram friends</string>
+
+    <string name="invite_text_facebook">Invite your Facebook friends</string>
+
+    <string name="rejected_attending">Your request for %1$s event has been rejected by %2$s"</string>
+    <string name="deleted_popup">This event has been deleted</string>
+    <string name="voyager_of_the_seas">Voyager of the seas</string>
+    <string name="voyager_detail_text">Come aboard this palatial cruise for the experience of a lifetime. Lace up your skates for a spin around the rink, or kick back and catch dazzling ice skating spectaculars and 3D movies. Taste your way from Italy to Japan at restaurants like Giovanni’\s Table and Izumi. And much more.</string>
+    <string name="ship_itinerary">Cruising Itinerary</string>
+    <string name="day_1">  Day 1 \nDeparture Time: 4:30 pm</string>
+    <string name="welcome_aboard_voyager_of_the_seas">Welcome aboard Voyager of the Seas.\nFilled with glittering skyscrapers, Singapore practically hums with business and trade. You\'ll also find multi-ethnic culture, great cuisine and attractions that include modern malls, traditional shops, colonial buildings and historic temples.</string>
+    <string name="day_2">  Day 2 \nARRIVES 8:00 AM DEPARTS 7:00 PM (DOCKED)\nPort of Call: Kuala Lumpur (Port Klang), Malaysia</string>
+    <string name="kuala_lumpur_is_a_bustling">Kuala Lumpur is a bustling hub for business, media and the arts. There are luxury hotels, mega-malls and skyscrapers as well as heritage architecture and multicultural ambiance in districts like Merdeka Square, Chinatown and Little India.</string>
+    <string name="day_3">  Day 3 \nCruising </string>
+    <string name="whether_you_seek">Whether you seek an adrenaline rush or total tranquility, our ships have it all. Try rock climbing, ice skating and mini golf on green that overlooks a sea of blue. Melt away land-based stress with a spa massage, build a scrapbook of memories or simply relax poolside.</string>
+    <string name="day_4">  Day 4 \nARRIVES 8:00 AM\nPort of Call: Singapore, Singapore </string>
+    <string name="filled_with_glittering_skyscrapers">Filled with glittering skyscrapers, Singapore practically hums with business and trade. You\'ll also find multi-ethnic culture, great cuisine and attractions that include modern malls, traditional shops, colonial buildings and historic temples.</string>
+    <string name="guests">Guests</string>
+    <string name="HashRiyal">#TheRiYal Story</string>
+    <string name="socialText">It is just The Beginning of Our Forever🕺💃\n\nExperience the Fun, Crazy, Magical &amp; Emotional Moments of the Wedding through Our Lens ❤\n<!--\nAlso follow the Riyal Instagram Page of #TheRiYalStory 😄 \n--></string>
+    <string name="socialTextWithoutEmoji">It is just The Beginning of Our Forever \n\nExperience the Fun, Crazy, Magical &amp; Emotional Moments of the Wedding through Our Lens \n<!--\nAlso follow the Riyal Instagram Page of #TheRiYalStory \n--></string>
+
+    <string name="socialTextapekshah">Once upon a time...\nStarted a fairytale #ApekSHAH\n\nWith many chapters lived out over the years...\nWe welcome you to come and play your part...</string>
+
+
+    <string name="socialText2"><![CDATA[Experience the Fun, Crazy, Magical & Emotional Moments of the Wedding through Our Lens]]></string>
+    <string name="socialText3">Also follow the RiYal Instagram Page of</string>
+    <string name="socialText4">ApekSHAH</string>
+    <string name="totalPost">Total Posts:</string>
+    <string name="logoutApp">Do you want to logout?</string>
+    <string name="my_information">My Information</string>
+    <string name="my_details">My Details</string>
+    <string name="documents_info">Documents</string>
+    <string name="merchandize">Merchandize Size</string>
+    <string name="travelDetails">Travel Details</string>
+    <string name="roomSharing">Room Sharing</string>
+    <string name="hotelDetails">Hotel Details</string>
+    <string name="dressCode">Dress Code</string>
+    <string name="yammer">Yammer</string>
+    <string name="banner2">YOUR TRAVEL ITINERARY</string>
+    <string name="banner3">CHALLENGE YOUR OPPONENT</string>
+    <string name="onwardd">Onward Journey</string>
+    <string name="returnn">Return Journey</string>
+    <string name="depDateTime">Departure Time:</string>
+    <string name="arrDateTime">Arrival Time:</string>
+    <string name="selectPreference">Select your Preferences</string>
+    <string name="selectSize">Select your Size</string>
+    <string name="room_sharing">Room Sharing</string>
+    <string name="socialTitle">ApekSHAH</string>
+    <string name="max">Max: 2000</string>
+
+    <string name="pre_sun">Pre Sunset meals have been organised for guests on all days. Please connect with the Hospitality Desk to assist you with transportation to the venues. </string>
+    <string name="welcomeMessage">On behalf of the India Leadership Team, we
+would like to officially welcome you to our
+national offsite in Hyderabad.  In the next two
+days, collectively we will join forces and wake
+up to a new Sunrise!\n\n
+
+Be prepared to learn more about our 2030
+vision, discover how we are embracing agility
+with a spirit of Yatte Minahare and learn about
+our powerhouse portfolio. Importantly, let’s
+celebrate our 2018 team effort responsibly and
+understand our 2019 objectives.\n\n
+
+The successful growth of our company is the
+direct result of you, our valued employees, our
+#1 priority, so we hope that you walk away
+with a better understanding of the important
+role you will play in helping us deliver our
+business the right way-the ApekSHAH Way!\n\n
+
+We have a full agenda ahead of us, however, we
+are looking forward to spending time with all
+of you as we actively embrace the Sunrise and
+Unleash our Spirit!\n\n
+
+Sincerely,\n
+Neeraj </string>
+    <string name="venue">Venue Details</string>
+
+    <string name="default_notification_channel_id">channel_id</string>
+    <string name="terminal">Arrival Terminal:</string>
+    <string name="currentGroup">Current Group</string>
+    <string name="start_game">Do you want to start game?</string>
+    <string name="CONUT">Countdown\nBegins</string>
+    <string name="resort">It’s a dream come true to have you with us,  to celebrate our children’s wedding in  this stunning castle.</string>
+    <string name="journey">Our journey begins here...</string>
+    <string name="resortName">THE PENHA LONGA RESORT</string>
+    <string name="the_resort">The Resort</string>
+    <string name="enter_gender">Select Gender</string>
+    <string name="enter_mb">Enter mobile number</string>
+    <string name="enter_address">Enter address</string>
+    <string name="pet_details">Pet Details</string>
+    <string name="save_n_add"><![CDATA[Save & Add More]]></string>
+    <string name="save_n_exit"><![CDATA[Save & Exit]]></string>
+    <string name="pet_name">Please enter pet name</string>
+    <string name="enter_breed">Please select breed</string>
+    <string name="enter_age">Please enter age in months</string>
+    <string name="profile_info">Profile Info</string>
+    <string name="activity">Activity</string>
+    <string name="near_by">Near By</string>
+    <string name="records">Records</string>
+
+
+    <string name="veterinarian">Veterinarian</string>
+    <string name="petshop">Pet Shop</string>
+    <string name="petbreeders">Pet Breeders</string>
+    <string name="trainers">Trainers</string>
+    <string name="groomers">Groomers</string>
+    <string name="pethotels">Pet Friendly Hotels</string>
+    <string name="petcafes">Pet Cafes</string>
+    <string name="petboarding">Pet Boarding</string>
+    <string name="dogwalker">Dog Walker</string>
+    <string name="category">Select Category</string>
+    <string name="clinic_name">Clinic Name</string>
+    <string name="qualification">Qualification</string>
+    <string name="pet_specialisation">Specialisation in Pets</string>
+    <string name="registration_no">Medical Registration Number</string>
+    <string name="experience">Experience in Years</string>
+    <string name="speciality">Speciality</string>
+    <string name="services">Services</string>
+    <string name="timing">Visit Timings</string>
+    <string name="weekly_off">Weekly Off</string>
+    <string name="gst_number">GST Number</string>
+    <string name="fees">Consultation Fee</string>
+    <string name="telephone">Telephone</string>
+    <string name="address">Address</string>
+    <string name="morningTime">Morning Timing</string>
+    <string name="eveningTime">Evening Timing</string>
+    <string name="socialProfile">Social Profile</string>
+    <string name="rating">Rating</string>
+    <string name="tnc">By continuing you agree to terms &amp; conditions</string>
+
+
+    <string-array name="loss_off_asset">
+        <item>Loss of Assets</item>
+        <item>Loss of Equipment</item>
+        <item>Loss of Property</item>
+        <item>Loss of Life</item>
+    </string-array>
+    <string-array name="inciden_reported">
+        <item>First Information / GD recorded in Police Station</item>
+        <item>Investigation Officer / Police Inspector / Sub insp</item>
+        <item>FIR lodged at Local Police Station</item>
+    </string-array>
+
+
+    <string-array name="any_medical_agenecy">
+        <item>Nature of injury</item>
+        <item>Time of Evacuation to sick bay</item>
+        <item>Name of Hospital where First Aid was provided</item>
+        <item>Name of Hospital where treatment was carried</item>
+    </string-array>
+
+    <string-array name="list_incident_type">
+        <item>Post Un attended</item>
+        <item>Misbehave</item>
+        <item>Conflicts</item>
+        <item>Security staff drunk at site</item>
+        <item>Security Staff found sleeping</item>
+        <item>Gates are Open</item>
+        <item>Impersonation of others</item>
+        <item>General suspicion</item>
+        <item>Crowding</item>
+        <item>Strike at site</item>
+        <item>Physical Assault</item>
+        <item>Narcotics, Drugs or involvement</item>
+        <item>Keeping unauthorized weapons</item>
+        <item>Theft</item>
+        <item>Murder</item>
+        <item>Prostitution</item>
+        <item>Threat</item>
+        <item>Banned Person Entry</item>
+        <item>Entrance of non permitted articles</item>
+        <item>Having Smoke in high security area (HSD Yard, LPG yard)</item>
+        <item>Parking at non parking area</item>
+        <item>Unauthorised attempt entry</item>
+        <item>Fire Alarm</item>
+        <item>Leakage of Oil</item>
+        <item>Leakage of water</item>
+        <item>Glass broken</item>
+        <item>Accident at site</item>
+        <item>Injury at site</item>
+        <item>Threatening call</item>
+        <item>Bomb threat</item>
+        <item>Suspicious article receiving</item>
+        <item>Visitor unattended</item>
+        <item>Vehicle Accident in premises</item>
+        <item>Using Abusive language</item>
+        <item>Absence of patrolling in high Sec area</item>
+        <item>Fraud &amp; cheating</item>
+        <item>Malfunctioning of records</item>
+        <item>Malfunctioning in Sec Attendance</item>
+        <item>Bribe</item>
+        <item>Ir respect to Female Emp</item>
+        <item>Watching Porn in to the system</item>
+        <item>Sexual Harassment</item>
+        <item>Shift Failure</item>
+        <item>Attempt Robbery</item>
+        <item>Pickpocket</item>
+        <item>Gambling</item>
+        <item>Movement of IT Servers without Permission</item>
+        <item>Movement of material without gate pass</item>
+        <item>Suspected Material receiving</item>
+        <item>Short incoming material identified</item>
+        <item>Short incoming material not identified</item>
+        <item>Turning off the pages of RGP &amp; NRGP (Incoming &amp; Outgoing)</item>
+        <item>Entrance of Dog and other Animals</item>
+        <item>Lack of sign boards or damaged</item>
+        <item>Incorrect reporting to the seniors</item>
+        <item>Disclosure of Executive Information</item>
+        <item>Disclosure of routine of Executives</item>
+        <item>Unknown person enquiring abt Company, Product and Top Executives</item>
+        <item>Talkative with routine contractors and Emp</item>
+        <item>Improper Key &amp; Lock Management</item>
+        <item>Earth Quake</item>
+        <item>Thunderstorm/ Storm</item>
+        <item>Police Patroll at site</item>
+        <item>Marital Investigations</item>
+        <item>Fire in the Vicinity Company</item>
+    </string-array>
+    <string-array name="list_sensitivity">
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>High</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Low</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="service_type">
+        <item>Security</item>
+        <item>Facility</item>
+        <item>Combine</item>
+        <item>Payroll</item>
+        <item>Other</item>
+    </string-array>
+    <string name="resend_code"><u>Resend Code</u></string>
+
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="nav_header_desc">Nav Header</string>
+    <string name="shally">Pawan Kumar</string>
+    <string name="do_u_want_logout">Do you want to logout?</string>
+    <string name="title_activity_client">ClientActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string-array name="att_designation_list">
+        <item> Supervisor </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Supervisor </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+        <item> Security Guard </item>
+
+
+    </string-array>
+
+    <string-array name="att_emp_code_list">
+        <item>	100517	</item>
+        <item>	99437	</item>
+        <item>	99438	</item>
+        <item>	111139	</item>
+        <item>	101110	</item>
+        <item>	156241	</item>
+        <item>	99464	</item>
+        <item>	99431	</item>
+        <item>	117293	</item>
+        <item>	99429	</item>
+        <item>	143715	</item>
+        <item>	101078	</item>
+        <item>	99457	</item>
+        <item>	99456	</item>
+        <item>	152450	</item>
+        <item>	99454	</item>
+        <item>	155207	</item>
+        <item>	152451	</item>
+        <item>	152449	</item>
+        <item>	152448	</item>
+        <item>	161771	</item>
+        <item>	151555	</item>
+        <item>	156235	</item>
+        <item>	141050	</item>
+        <item>	156239	</item>
+        <item>	156240	</item>
+        <item>	161770	</item>
+        <item>	136335	</item>
+        <item>	143722	</item>
+        <item>	161772	</item>
+        <item>	143713	</item>
+        <item>	152925	</item>
+        <item>	136334	</item>
+        <item>	99452	</item>
+        <item>	99453	</item>
+        <item>	159556	</item>
+        <item>	161773	</item>
+        <item>	157975	</item>
+        <item>	New	</item>
+        <item>	99465	</item>
+        <item>	103621	</item>
+        <item>	158913	</item>
+        <item>	151557	</item>
+        <item>	99458	</item>
+        <item>	99447	</item>
+        <item>	158914	</item>
+        <item>	99446	</item>
+        <item>	133096	</item>
+        <item>	133097	</item>
+        <item>	99449	</item>
+        <item>	99450	</item>
+        <item>	99448	</item>
+        <item>	152457	</item>
+        <item>	99460	</item>
+        <item>	135566	</item>
+        <item>	151562	</item>
+        <item>	151561	</item>
+        <item>	152930	</item>
+        <item>	151560	</item>
+        <item>	152933	</item>
+        <item>	152931	</item>
+        <item>	152932	</item>
+        <item>	152458	</item>
+        <item>	156238	</item>
+        <item>	161775	</item>
+        <item>	99375	</item>
+        <item>	99377	</item>
+        <item>	99371	</item>
+        <item>	147439	</item>
+        <item>	159557	</item>
+        <item>	155229	</item>
+        <item>	99369	</item>
+        <item>	157969	</item>
+        <item>	141052	</item>
+        <item>	156228	</item>
+        <item>	133058	</item>
+        <item>	157984	</item>
+        <item>	152939	</item>
+        <item>	156226	</item>
+        <item>	155209	</item>
+        <item>	147438	</item>
+        <item>	158915	</item>
+        <item>	99388	</item>
+        <item>	99391	</item>
+        <item>	99392	</item>
+        <item>	99382	</item>
+        <item>	99380	</item>
+        <item>	99385	</item>
+        <item>	155216	</item>
+        <item>	152943	</item>
+        <item>	163893	</item>
+        <item>	157974	</item>
+        <item>	159559	</item>
+        <item>	156222	</item>
+        <item>	161776	</item>
+        <item>	101076	</item>
+        <item>	103622	</item>
+        <item>	152477	</item>
+        <item>	157973	</item>
+        <item>	157971	</item>
+        <item>	111143	</item>
+        <item>	157972	</item>
+        <item>	151564	</item>
+        <item>	133066	</item>
+        <item>	99404	</item>
+        <item>	99403	</item>
+        <item>	103626	</item>
+        <item>	99402	</item>
+        <item>	163894	</item>
+        <item>	99398	</item>
+        <item>	155219	</item>
+        <item>	158912	</item>
+        <item>	NEW	</item>
+        <item>	99425	</item>
+        <item>	99423	</item>
+        <item>	99419	</item>
+        <item>	99420	</item>
+        <item>	152952	</item>
+        <item>	158916	</item>
+        <item>	121143	</item>
+        <item>	111140	</item>
+        <item>	99421	</item>
+        <item>	157301	</item>
+        <item>	152463	</item>
+        <item>	152949	</item>
+        <item>	99418	</item>
+        <item>	148855	</item>
+        <item>	157300	</item>
+        <item>	152954	</item>
+        <item>	152462	</item>
+        <item>	148854	</item>
+        <item>	157288	</item>
+        <item>	154506	</item>
+        <item>	152488	</item>
+        <item>	135571	</item>
+        <item>	99413	</item>
+        <item>	133063	</item>
+        <item>	99407	</item>
+        <item>	99409	</item>
+        <item>	152494	</item>
+        <item>	136329	</item>
+        <item>	155235	</item>
+        <item>	155232	</item>
+        <item>	152492	</item>
+        <item>	99416	</item>
+        <item>	152959	</item>
+        <item>	155212	</item>
+        <item>	152493	</item>
+        <item>	148856	</item>
+        <item>	99412	</item>
+        <item>	155213	</item>
+        <item>	152497	</item>
+        <item>	99436	</item>
+        <item>	133090	</item>
+        <item>	141054	</item>
+        <item>	133089	</item>
+        <item>	157302	</item>
+        <item>	152502	</item>
+        <item>	152922	</item>
+        <item>	99434	</item>
+        <item>	99433	</item>
+
+    </string-array>
+
+
+    <string-array name="att_emp_name_list">
+        <item>	AMRESH SINGH	</item>
+        <item>	 GURPREET SINGH	</item>
+        <item>	 HARI SINGH	</item>
+        <item>	AVTAR SINGH	</item>
+        <item>	GURPREET SINGH	</item>
+        <item>	HARMESH SINGH	</item>
+        <item>	 BALDEEP SINGH	</item>
+        <item>	 CHARAN SINGH	</item>
+        <item>	 HARPREET SINGH	</item>
+        <item>	 MOHINDER SINGH	</item>
+        <item>	GURPREET SINGH	</item>
+        <item>	SEWA SINGH	</item>
+        <item>	 BALKAR SINGH	</item>
+        <item>	 GULJAR SINGH	</item>
+        <item>	BALJEET SINGH	</item>
+        <item>	DILBAG SINGH	</item>
+        <item>	Karam Pal	</item>
+        <item>	NIRMAL SINGH	</item>
+        <item>	SANDEEP SINGH	</item>
+        <item>	SUKHCHAIN SINGH	</item>
+        <item>	ALWINDER SINGH	</item>
+        <item>	AVTAR SINGH	</item>
+        <item>	KARAMWANT SINGH	</item>
+        <item>	LAKHWINDER SINGH	</item>
+        <item>	LOVEPREET SINGH	</item>
+        <item>	RAMANDEEP SINGH	</item>
+        <item>	SUKHWINDER SINGH	</item>
+        <item>	AMANPREET SINGH	</item>
+        <item>	GURPREET SINGH	</item>
+        <item>	Inderjeet	</item>
+        <item>	JOGINDER SINGH	</item>
+        <item>	MANJEET SINGH	</item>
+        <item>	SUKHDEV SINGH	</item>
+        <item>	 BANTI	</item>
+        <item>	 SUKHDEV SINGH	</item>
+        <item>	Parvinder Singh	</item>
+        <item>	TEHAL SINGH	</item>
+        <item>	Hardeep Kumar	</item>
+        <item>	Kulwinder Kaur	</item>
+        <item>	 KIRPAL SINGH	</item>
+        <item>	 SIMRANJEET SINGH	</item>
+        <item>	DALJEET SINGH	</item>
+        <item>	SATNAM SINGH	</item>
+        <item>	SUKHWINDER SINGH	</item>
+        <item>	 NARINDER SINGH	</item>
+        <item>	Balwinder Singh	</item>
+        <item>	NARESH KUMAR	</item>
+        <item>	 KARAMJEET SINGH	</item>
+        <item>	 SHAM LAL	</item>
+        <item>	 VIJAY KUMAR	</item>
+        <item>	AJAY KUMAR	</item>
+        <item>	BHAGWAN DASS	</item>
+        <item>	SUKHCHAIN SINGH	</item>
+        <item>	 BHAG SINGH	</item>
+        <item>	 GURMUKH SINGH	</item>
+        <item>	AJAY KUMAR	</item>
+        <item>	DEEPAK KUMAR	</item>
+        <item>	GURDAS SINGH	</item>
+        <item>	GURPREET SINGH	</item>
+        <item>	HARVINDER SINGH	</item>
+        <item>	KARAM SINGH	</item>
+        <item>	SAGAR KUMAR	</item>
+        <item>	SHAMINDER SINGH	</item>
+        <item>	SUKHWINDER SINGH	</item>
+        <item>	SURINDER SINGH	</item>
+        <item>	 JASWANT SINGH	</item>
+        <item>	 JOGINDER SINGH	</item>
+        <item>	 MADHO RAM	</item>
+        <item>	BARAN	</item>
+        <item>	PARWINDER SINGH	</item>
+        <item>	Ghola Singh	</item>
+        <item>	KEDAR NATH	</item>
+        <item>	Navjot	</item>
+        <item>	NIRMAL SINGH	</item>
+        <item>	PARBHKIRAN SINGH	</item>
+        <item>	RAJESH KUMAR	</item>
+        <item>	Raju	</item>
+        <item>	RANJIT SINGH	</item>
+        <item>	SADHIK MASIH	</item>
+        <item>	Sarabjeet Singh	</item>
+        <item>	SONU	</item>
+        <item>	Taranbir Singh	</item>
+        <item>	 BABLU	</item>
+        <item>	 DALBIR SINGH	</item>
+        <item>	 GURMUKH SINGH	</item>
+        <item>	 HARGOPAL SHARMA	</item>
+        <item>	 MOHIT	</item>
+        <item>	 SURESH KUMAR	</item>
+        <item>	Charanjeet Singh	</item>
+        <item>	GURDIT SINGH	</item>
+        <item>	NIRMAL SINGH	</item>
+        <item>	HARPREET SINGH	</item>
+        <item>	JAGTAR SINGH	</item>
+        <item>	JASWINDER SINGH	</item>
+        <item>	KAKA	</item>
+        <item>	Kapil kumar	</item>
+        <item>	MAHINDER SINGH	</item>
+        <item>	MOHAMAD ALLADIN	</item>
+        <item>	PARDEEP SINGH	</item>
+        <item>	Parjinder Singh	</item>
+        <item>	SEWA RAM	</item>
+        <item>	Surinder Singh	</item>
+        <item>	VIJAY KUMAR	</item>
+        <item>	 DARBARA SINGH	</item>
+        <item>	 GINDER SINGH	</item>
+        <item>	 RAJWANT SINGH	</item>
+        <item>	AJAIB SINGH	</item>
+        <item>	PARKASH SINGH	</item>
+        <item>	BHAGWAN SINGH	</item>
+        <item>	DAVINDER SINGH	</item>
+        <item>	Ful Chand	</item>
+        <item>	Prem Prashad	</item>
+        <item>	SUKHWINDER SINGH	</item>
+        <item>	 DARSHAN SINGH	</item>
+        <item>	 JASVIR SINGH	</item>
+        <item>	 SANT SINGH	</item>
+        <item>	 SHAITAN SINGH	</item>
+        <item>	ATAR SINGH	</item>
+        <item>	Balkar Singh Chauhan	</item>
+        <item>	BALWINDER SINGH	</item>
+        <item>	GURJINDER SINGH	</item>
+        <item>	JOGINDER SINGH	</item>
+        <item>	KAMAL	</item>
+        <item>	MEHTAB SINGH	</item>
+        <item>	NOORDIN	</item>
+        <item>	PARAMJIT SINGH	</item>
+        <item>	PREM CHAND	</item>
+        <item>	RAMESH SINGH	</item>
+        <item>	SAHIBJOT SINGH	</item>
+        <item>	SANDEEP SINGH	</item>
+        <item>	SANDEEP SINGH	</item>
+        <item>	SATNAM SINGH	</item>
+        <item>	TARUN SHARMA	</item>
+        <item>	VARINDER SINGH	</item>
+        <item>	 GURMEET SINGH	</item>
+        <item>	 RAGHVIR SINGH	</item>
+        <item>	 RANJEET SINGH	</item>
+        <item>	BAHADAR SINGH	</item>
+        <item>	BHAJAN SINGH	</item>
+        <item>	CHARAN DASS	</item>
+        <item>	GURMEET SINGH	</item>
+        <item>	Gurnam Singh	</item>
+        <item>	Jeet Khan	</item>
+        <item>	KARAN KUMAR	</item>
+        <item>	KULJIT SINGH	</item>
+        <item>	LAKHVIR SINGH	</item>
+        <item>	Manpreet Singh	</item>
+        <item>	NAZAM	</item>
+        <item>	PUSHPINDER SINGH	</item>
+        <item>	RAM CHAND	</item>
+        <item>	Teja Singh	</item>
+        <item>	WILAITY	</item>
+        <item>	 KARAM SINGH	</item>
+        <item>	BIKRAM SINGH	</item>
+        <item>	HARMANJEET SINGH	</item>
+        <item>	HARPREET SINGH	</item>
+        <item>	JAGTAR SINGH	</item>
+        <item>	LAKHVIR SINGH	</item>
+        <item>	SUKHCHAIN SINGH	</item>
+        <item>	GURCHARAN LAL	</item>
+        <item>	HARBANS SINGH	</item>
+
+    </string-array>
+
+    <string-array name="att_location_list">
+        <item>	HO	</item>
+        <item>	AMLOH	</item>
+        <item>	AMLOH	</item>
+        <item>	AMLOH	</item>
+        <item>	AMLOH	</item>
+        <item>	AMLOH	</item>
+        <item>	BASSI PATHANA	</item>
+        <item>	BASSI PATHANA	</item>
+        <item>	BASSI PATHANA	</item>
+        <item>	BASSI PATHANA	</item>
+        <item>	BASSI PATHANA	</item>
+        <item>	BASSI PATHANA	</item>
+        <item>	BHADSON	</item>
+        <item>	BHADSON	</item>
+        <item>	BHADSON	</item>
+        <item>	BHADSON	</item>
+        <item>	BHADSON	</item>
+        <item>	BHADSON	</item>
+        <item>	BHADSON	</item>
+        <item>	BHADSON	</item>
+        <item>	CHAMKAUR SAHIB	</item>
+        <item>	CHAMKAUR SAHIB	</item>
+        <item>	CHAMKAUR SAHIB	</item>
+        <item>	CHAMKAUR SAHIB	</item>
+        <item>	CHAMKAUR SAHIB	</item>
+        <item>	CHAMKAUR SAHIB	</item>
+        <item>	CHAMKAUR SAHIB	</item>
+        <item>	CHANARTHAL	</item>
+        <item>	CHANARTHAL	</item>
+        <item>	CHANARTHAL	</item>
+        <item>	CHANARTHAL	</item>
+        <item>	CHANARTHAL	</item>
+        <item>	CHANARTHAL	</item>
+        <item>	DAPPAR	</item>
+        <item>	DAPPAR	</item>
+        <item>	DAPPAR	</item>
+        <item>	DAPPAR	</item>
+        <item>	District Office	</item>
+        <item>	District Office	</item>
+        <item>	District Office	</item>
+        <item>	KARAR	</item>
+        <item>	KARAR	</item>
+        <item>	KARAR	</item>
+        <item>	KARAR	</item>
+        <item>	KURALI	</item>
+        <item>	KURALI	</item>
+        <item>	KURALI	</item>
+        <item>	Mandi Gobindgarh	</item>
+        <item>	Mandi Gobindgarh	</item>
+        <item>	Mandi Gobindgarh	</item>
+        <item>	Mandi Gobindgarh	</item>
+        <item>	Mandi Gobindgarh	</item>
+        <item>	Mandi Gobindgarh	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	MORINDA	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 1	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATIALA 2	</item>
+        <item>	PATRAN	</item>
+        <item>	PATRAN	</item>
+        <item>	PATRAN	</item>
+        <item>	PATRAN	</item>
+        <item>	PATRAN	</item>
+        <item>	PHADPUR	</item>
+        <item>	PHADPUR	</item>
+        <item>	PHADPUR	</item>
+        <item>	PHADPUR	</item>
+        <item>	PHADPUR	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	RAJPURA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SAMANA	</item>
+        <item>	SANGHOL	</item>
+        <item>	SANGHOL	</item>
+        <item>	SANGHOL	</item>
+        <item>	SANGHOL	</item>
+        <item>	SANGHOL	</item>
+        <item>	SANGHOL	</item>
+        <item>	SANGHOL	</item>
+        <item>	WEDDING CELL DAPPAR	</item>
+        <item>	WEDDING CELL DAPPAR	</item>
+
+
+    </string-array>
+    <string name="punching_date">Select Punching Date</string>
+    <string name="tab_home">Home</string>
+    <string name="profile_home">Profile</string>
+    <string name="sos">SOS</string>
+
+
+</resources>

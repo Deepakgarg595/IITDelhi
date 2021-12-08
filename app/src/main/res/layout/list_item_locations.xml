@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/txvLocationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
+    
+    <TextView 
+        android:id="@+id/txvDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10000m"
+        android:textColor="@color/gray_btn"/>
+
+</LinearLayout>

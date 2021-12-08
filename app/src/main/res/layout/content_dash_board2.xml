@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <include layout="@layout/three_tab_layout"></include>
+
+
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/viewPager"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        />-->
+
+
+<!--    <eu.long1.spacetablayout.SpaceTabLayout-->
+<!--        android:layout_above="@+id/viewPager"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:id="@+id/spaceTabLayout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        app:button_color="@color/colorPrimary"-->
+<!--        app:icon_one="@drawable/f_home_icon"-->
+<!--        app:icon_three="@drawable/f_profile_icon"-->
+<!--        app:icon_two="@drawable/security"-->
+<!--        app:number_of_tabs="three"-->
+<!--        app:starting_position="two"-->
+<!--        android:focusableInTouchMode="false"-->
+<!--        app:tab_color="@color/primary_blue"-->
+<!--        app:text_color="@color/white"-->
+
+<!--        />-->
+
+</RelativeLayout>

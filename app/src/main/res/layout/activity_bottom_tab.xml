@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/padding_5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/margin_30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/margin_25"
+                android:layout_height="@dimen/margin_25"
+                android:src="@drawable/warning_sign">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Incident"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_16sp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/padding_5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/margin_30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/margin_25"
+                android:layout_height="@dimen/margin_25"
+                android:src="@drawable/accountin">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Account"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_16sp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ss2"></ImageView>
+</RelativeLayout>

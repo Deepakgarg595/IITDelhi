@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_line"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:id="@+id/rlSearchByName"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:layout_marginRight="@dimen/padding_5">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/margin_10dp"
+            android:src="@mipmap/back_arrow_icon"
+            android:visibility="visible"
+            app:tint="@color/white" />
+
+
+        <com.app.iitdelhicampus.utility.CustomTextViewBold
+            android:id="@+id/txtHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="Incident Report List"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_heading"
+            android:textStyle="bold" />
+
+        <com.app.iitdelhicampus.utility.CustomEditText
+            android:layout_marginRight="@dimen/padding_5"
+            android:id="@+id/editSearch"
+            android:layout_toRightOf="@+id/iv_back"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_5dp"
+            android:layout_toLeftOf="@+id/llToolbarButtons"
+            android:background="@drawable/boarder_search"
+            android:drawablePadding="@dimen/padding_5"
+            android:drawableTint="@color/white"
+            android:hint="Search"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <LinearLayout
+            android:id="@+id/llToolbarButtons"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_5"
+                android:visibility="visible"></ImageView>
+            <RelativeLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true">
+
+
+                <ImageView
+                    android:id="@+id/ivSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_5"
+                    android:layout_centerInParent="true"
+                    android:visibility="visible"></ImageView>
+
+                <ImageView
+                    android:id="@+id/ivCancel"
+                    android:visibility="visible"
+                    android:layout_marginLeft="@dimen/padding_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"></ImageView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_10dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+    <com.app.iitdelhicampus.utility.CustomTextViewBold
+        android:id="@+id/tvDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_17sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.5"
+        android:padding="@dimen/margin_10dp"
+        android:textColor="@color/primary_blue"
+        android:text="Welcome to Orion Watch\nPlease click on + button on Top Right to add new Incident.">
+
+
+    </com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+</FrameLayout>

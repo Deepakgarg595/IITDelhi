@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_window"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_mark_inout"
+        android:orientation="vertical">
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tick_green">
+
+        </ImageView>
+
+        <com.app.iitdelhicampus.utility.CustomTextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="@dimen/padding_5"
+            android:text="Attendance marked IN Successfully.."
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+
+        <com.app.iitdelhicampus.utility.CustomTextView
+            android:id="@+id/txtNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="content"
+            android:visibility="gone"
+            android:textColor="@color/colorBlack28"
+            android:textSize="@dimen/text_size_normal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/btnYes"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="No"
+                android:textAllCaps="false"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_normal" />
+            <!--<View
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/light_gray"
+                ></View>-->
+            <Button
+                android:id="@+id/btnYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="Yes"
+                android:textAllCaps="false"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_size_normal" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

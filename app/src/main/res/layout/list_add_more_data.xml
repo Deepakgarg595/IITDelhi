@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llParentView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.app.iitdelhicampus.utility.CustomTextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(1)"
+        android:padding="@dimen/padding_5"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/text_16sp">
+
+    </com.app.iitdelhicampus.utility.CustomTextView>
+
+    <com.app.iitdelhicampus.utility.CustomEditText
+        android:id="@+id/etCourseOfAction"
+        android:layout_toRightOf="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/ivAddMore"
+        android:hint="Click + to add more"
+        android:imeOptions="actionNext"
+        android:inputType="textCapSentences"
+        android:paddingLeft="@dimen/padding_5"
+        android:paddingTop="@dimen/margin_15dp"
+
+        android:paddingBottom="@dimen/margin_10dp"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_normal" />
+
+    <ImageView
+        android:id="@+id/ivAddMore"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/margin_10dp"
+        android:focusable="false"
+        android:focusedByDefault="false"
+        android:inputType="textCapSentences"
+        android:paddingLeft="@dimen/padding_5"
+        android:src="@drawable/add_more_icon"
+        android:textColor="@color/colorPrimary" />
+
+
+</RelativeLayout>

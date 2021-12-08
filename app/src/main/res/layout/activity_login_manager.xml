@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@color/colorPrimary"
+            android:contentInsetStart="0dp"
+            android:contentInsetLeft="0dp"
+            android:elevation="3dp"
+            android:minHeight="?attr/actionBarSize"
+            android:visibility="gone"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextColor="@color/white">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/margin_10dp"
+                app:tint="@color/white"
+                android:visibility="visible" />
+
+            <com.app.iitdelhicampus.utility.CustomTextViewBold
+                android:id="@+id/txtHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_bg_order_detail">
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1">
+
+                </Space>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/app_icon"></ImageView>
+
+                <com.app.iitdelhicampus.utility.CustomTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Welcome to"
+                    android:textColor="@color/white"
+                    android:textSize="24sp">
+
+                </com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+                <com.app.iitdelhicampus.utility.CustomTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Wach"
+                    android:textColor="@color/white"
+                    android:textSize="30sp">
+
+                </com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_marginTop="@dimen/margin_30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+
+
+                <FrameLayout
+                    android:layout_margin="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:background="@drawable/bg_login_view"
+                    android:layout_gravity="center">
+
+                    <com.app.iitdelhicampus.utility.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Login Account"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:textSize="24sp">
+
+                    </com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_15"
+
+                        android:orientation="vertical">
+
+                        <LinearLayout
+
+                            android:id="@+id/llNumberView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:id="@+id/selectCountry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/margin_10dp"
+
+                                android:visibility="gone">
+
+                                <com.app.iitdelhicampus.utility.CustomTextView
+                                    android:id="@+id/txtCountryName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/margin_10dp"
+                                    android:text="IN"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/text_size_heading" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=">"
+                                    android:textSize="@dimen/text_size_heading" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:background="@drawable/rounded_bg_edittext"
+                                android:layout_height="wrap_content">
+
+
+                                <com.app.iitdelhicampus.utility.CustomEditText
+                                    android:id="@+id/phoneNumber"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@null"
+                                    android:hint="Please Enter UserId"
+                                    android:textSize="@dimen/text_16sp"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/margin_10dp"
+                                    android:textColor="@color/black"
+                                    android:textColorHint="#999999" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:background="@drawable/rounded_bg_edittext"
+                                android:layout_marginTop="@dimen/margin_10dp"
+                                android:layout_height="wrap_content">
+
+
+                                <com.app.iitdelhicampus.utility.CustomEditText
+                                    android:id="@+id/password"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@null"
+                                    android:hint="Please Enter Password"
+                                    android:inputType="textPassword"
+                                    android:textSize="@dimen/text_16sp"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/margin_10dp"
+                                    android:textColor="@color/black"
+                                    android:textColorHint="#999999" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginLeft="@dimen/margin_10dp"
+                                android:layout_marginRight="@dimen/margin_10dp"
+                                android:background="@color/colorBlack"></View>
+
+                            <com.app.iitdelhicampus.utility.CustomTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_10dp"
+                                android:gravity="center"
+                                android:padding="@dimen/margin_10dp"
+                                android:text="@string/otp_message"
+                                android:textColor="@color/black"
+                                android:visibility="gone" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_verification"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txvNum"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <com.app.iitdelhicampus.utility.CustomTextView
+                                android:id="@+id/tvVerificationCode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="center|center_horizontal"
+                                android:text="@string/Enter_verification_code"
+                                android:textColor="#999999"
+                                android:textSize="@dimen/text_size_normal"
+                                android:textStyle="bold" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="@dimen/padding_5dp"
+                                        android:orientation="vertical">
+
+
+                                        <com.app.iitdelhicampus.utility.CustomTextView
+                                            android:id="@+id/etVerificationCode1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/tvVerificationCode"
+                                            android:layout_gravity="center_vertical"
+                                            android:gravity="center"
+                                            android:padding="@dimen/padding_5dp"
+                                            android:text=" "
+                                            android:textColor="@color/colorBlack"
+                                            android:textSize="@dimen/text_size_normal" />
+
+
+                                        <View
+                                            android:layout_width="@dimen/otp_box_width"
+                                            android:layout_height="1dp"
+                                            android:layout_marginBottom="20dp"
+                                            android:background="@color/colorBlack" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="@dimen/padding_5dp"
+                                        android:orientation="vertical">
+
+                                        <com.app.iitdelhicampus.utility.CustomTextView
+                                            android:id="@+id/etVerificationCode2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/tvVerificationCode"
+                                            android:layout_gravity="center_vertical"
+                                            android:gravity="center"
+                                            android:padding="@dimen/padding_5dp"
+                                            android:text=" "
+                                            android:textColor="@color/colorBlack"
+                                            android:textSize="@dimen/text_size_normal" />
+
+                                        <View
+                                            android:layout_width="@dimen/otp_box_width"
+                                            android:layout_height="1dp"
+                                            android:layout_marginBottom="20dp"
+                                            android:background="@color/colorBlack" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="@dimen/padding_5dp"
+                                        android:orientation="vertical">
+
+                                        <com.app.iitdelhicampus.utility.CustomTextView
+                                            android:id="@+id/etVerificationCode3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/tvVerificationCode"
+                                            android:layout_gravity="center_vertical"
+                                            android:gravity="center"
+                                            android:padding="@dimen/padding_5dp"
+                                            android:text=" "
+                                            android:textColor="@color/colorBlack"
+                                            android:textSize="@dimen/text_size_normal" />
+
+                                        <View
+                                            android:layout_width="@dimen/otp_box_width"
+                                            android:layout_height="1dp"
+                                            android:layout_marginBottom="20dp"
+                                            android:background="@color/colorBlack" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="@dimen/padding_5dp"
+                                        android:orientation="vertical">
+
+                                        <com.app.iitdelhicampus.utility.CustomTextView
+                                            android:id="@+id/etVerificationCode4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/tvVerificationCode"
+                                            android:layout_gravity="center_vertical"
+                                            android:gravity="center"
+                                            android:padding="@dimen/padding_5dp"
+                                            android:text=" "
+                                            android:textColor="@color/colorBlack"
+                                            android:textSize="@dimen/text_size_normal" />
+
+                                        <View
+                                            android:layout_width="@dimen/otp_box_width"
+                                            android:layout_height="1dp"
+                                            android:layout_marginBottom="20dp"
+                                            android:background="@color/colorBlack" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="@dimen/padding_5dp"
+                                        android:orientation="vertical">
+
+                                        <com.app.iitdelhicampus.utility.CustomTextView
+                                            android:id="@+id/etVerificationCode5"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/tvVerificationCode"
+                                            android:layout_gravity="center_vertical"
+                                            android:gravity="center"
+                                            android:padding="@dimen/padding_5dp"
+                                            android:text=" "
+                                            android:textColor="@color/colorBlack"
+                                            android:textSize="@dimen/text_size_normal" />
+
+                                        <View
+                                            android:layout_width="@dimen/otp_box_width"
+                                            android:layout_height="1dp"
+                                            android:layout_marginBottom="20dp"
+                                            android:background="@color/colorBlack" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="@dimen/padding_5dp"
+                                        android:orientation="vertical">
+
+                                        <com.app.iitdelhicampus.utility.CustomTextView
+                                            android:id="@+id/etVerificationCode6"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/tvVerificationCode"
+                                            android:layout_gravity="center_vertical"
+                                            android:gravity="center"
+                                            android:padding="@dimen/padding_5dp"
+                                            android:text=" "
+                                            android:textColor="@color/colorBlack"
+                                            android:textSize="@dimen/text_size_normal"
+
+                                            />
+
+                                        <View
+                                            android:layout_width="@dimen/otp_box_width"
+                                            android:layout_height="1dp"
+                                            android:layout_marginBottom="20dp"
+                                            android:background="@color/colorBlack" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <com.app.iitdelhicampus.utility.CustomEditText
+                                    android:id="@+id/etOtpHolder"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@null"
+                                    android:cursorVisible="false"
+                                    android:inputType="number"
+                                    android:maxLength="6"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:visibility="visible"></com.app.iitdelhicampus.utility.CustomEditText>
+
+
+                            </RelativeLayout>
+
+                            <Button
+                                android:id="@+id/btnVerifyOTP"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="@dimen/margin_10dp"
+                                android:layout_marginTop="30dp"
+                                android:layout_marginRight="@dimen/margin_10dp"
+                                android:background="@drawable/background_rounded"
+                                android:text="Verify Code"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="17sp" />
+
+                            <com.app.iitdelhicampus.utility.CustomTextView
+                                android:id="@+id/tvReSendCode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_10dp"
+                                android:gravity="center"
+                                android:text="@string/resend_code"
+                                android:textColor="@color/primary_blue"
+                                android:textSize="16sp"></com.app.iitdelhicampus.utility.CustomTextView>
+
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"></Space>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </FrameLayout>
+                <Button
+                    android:id="@+id/btnVerifyNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:paddingTop="@dimen/margin_15"
+                    android:paddingBottom="@dimen/margin_15"
+                    android:background="@drawable/background_resend_button_enable"
+                    android:text="@string/verify_phone_number"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:translationZ="90dp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/pbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_gravity="bottom|center_horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_gravity="bottom|center_horizontal"
+
+            android:src="@drawable/login_app_logo">
+
+        </ImageView>
+
+        <com.app.iitdelhicampus.utility.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tnc"
+            android:textColor="@color/primary_blue"></com.app.iitdelhicampus.utility.CustomTextView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

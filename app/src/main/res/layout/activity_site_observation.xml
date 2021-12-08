@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvSubmit"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@color/colorPrimary"
+            android:contentInsetStart="0dp"
+            android:contentInsetLeft="0dp"
+            android:elevation="3dp"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextColor="@color/white">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/margin_10dp"
+                android:src="@mipmap/back_arrow_icon"
+                android:tint="@color/white"
+                android:visibility="visible" />
+
+            <com.app.iitdelhicampus.utility.CustomTextViewBold
+                android:id="@+id/txtHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Site Observation"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/llQRParentView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/llQRView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:background="@drawable/rounded_bg_scan_qr"
+                        android:padding="@dimen/margin_10dp">
+
+                        <ImageView
+                            android:id="@+id/ivScanQRCode"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/qr_scan"
+                            android:tint="@color/white"></ImageView>
+
+                        <com.app.iitdelhicampus.utility.CustomTextViewBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Scan QR Code"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_16sp"
+                            android:textStyle="bold"></com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+                    </LinearLayout>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvQRResponse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_10dp"
+                        android:text=""
+                        android:textSize="@dimen/text_16sp"></com.app.iitdelhicampus.utility.CustomTextView>
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/margin_10dp"
+                        android:text="OR"
+
+                        android:textSize="@dimen/text_18sp"></com.app.iitdelhicampus.utility.CustomTextViewBold>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llStep1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/inputClientName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etClientName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/imageArrow"
+                            android:cursorVisible="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Select Client Name"
+                            android:longClickable="false"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal">
+
+                        </com.app.iitdelhicampus.utility.CustomEditText>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:visibility="gone">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:id="@+id/txtDateNTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/imageArrow"
+                            android:cursorVisible="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Date &amp; Time: 21 Jul,2020 11:25"
+                            android:longClickable="false"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal">
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:visibility="gone">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:id="@+id/txtLastVisitDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/imageArrow"
+                            android:cursorVisible="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Last Visit Date: 21 Jul,2020"
+                            android:longClickable="false"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal">
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etSiteCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:focusableInTouchMode="false"
+                            android:longClickable="false"
+                            android:hint="Site Code"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!--                    <com.google.android.material.textfield.TextInputLayout-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:visibility="gone"-->
+                    <!--                        android:layout_marginTop="@dimen/margin_10dp">-->
+
+                    <!--                        <com.app.orionsecure.utility.CustomEditText-->
+                    <!--                            android:id="@+id/etClientName"-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:drawablePadding="@dimen/margin_10dp"-->
+                    <!--                            android:hint="Client Name"-->
+                    <!--                            android:paddingLeft="@dimen/margin_5dp"-->
+                    <!--                            android:paddingTop="@dimen/margin_15dp"-->
+
+                    <!--                            android:paddingRight="@dimen/margin_5dp"-->
+                    <!--                            android:paddingBottom="@dimen/margin_10dp"-->
+                    <!--                            android:textSize="@dimen/text_size_normal" />-->
+
+                    <!--                    </com.google.android.material.textfield.TextInputLayout>-->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etDeploymentLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:cursorVisible="false"
+                            android:drawableRight="@drawable/dropdown_fill"
+                            android:drawablePadding="@dimen/margin_10dp"
+                            android:focusableInTouchMode="false"
+                            android:hint="Deployment Location"
+                            android:longClickable="false"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etServiceType"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:cursorVisible="false"
+                            android:drawableRight="@drawable/dropdown_fill"
+                            android:drawablePadding="@dimen/margin_10dp"
+                            android:focusableInTouchMode="false"
+                            android:hint="Service Type"
+                            android:longClickable="false"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tvInputOtherService"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etServiceTypeOther"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Other service"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etNoOfManpower"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="No. of Manpower (Saction Strength)"
+                            android:inputType="number"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etShortage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Shortage (If any)"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:visibility="gone">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etShortageReason"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Shortage (Reason)"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Is Site Post Standing orders / SOPs issued at site"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupIsSitePostStanding"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1IsSitePostStanding"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Yes" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2IsSitePostStanding"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="No"
+
+                                />
+                        </RadioGroup>
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputNonIssuanceOfSOPsReason"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/etReasonForNonIssuanceOfSOPs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Reason for non issuance of SOPs"
+                                android:paddingLeft="@dimen/margin_5dp"
+                                android:paddingTop="@dimen/margin_15dp"
+
+                                android:paddingRight="@dimen/margin_5dp"
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:textSize="@dimen/text_size_normal" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Uniform  &amp; Accessories"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupUniformAccessories"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1UniformAccessories"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Good" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2UniformAccessories"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="Average"
+
+                                />
+
+                            <RadioButton
+                                android:id="@+id/radioButton3UniformAccessories"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="Bad"
+
+                                />
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Guard Grooming"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupGuardGrooming"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1GuardGrooming"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Good" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2GuardGrooming"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="Average"
+
+                                />
+
+                            <RadioButton
+                                android:id="@+id/radioButton3GuardGrooming"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="Bad"
+
+                                />
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Guard Uniform"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupGuardUniform"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1GuardUniform"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Good" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2GuardUniform"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="Average"
+
+                                />
+
+                            <RadioButton
+                                android:id="@+id/radioButton3GuardUniform"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="Bad"
+
+                                />
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+
+
+                    <!--                    <com.google.android.material.textfield.TextInputLayout-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginTop="@dimen/margin_10dp">-->
+
+                    <!--                        <com.app.orionsecure.utility.CustomEditText-->
+                    <!--                            android:id="@+id/etGuardUniform"-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:drawablePadding="@dimen/margin_10dp"-->
+                    <!--                            android:hint="Guard Uniform"-->
+                    <!--                            android:paddingLeft="@dimen/margin_5dp"-->
+                    <!--                            android:paddingTop="@dimen/margin_15dp"-->
+
+                    <!--                            android:paddingRight="@dimen/margin_5dp"-->
+                    <!--                            android:paddingBottom="@dimen/margin_10dp"-->
+                    <!--                            android:textSize="@dimen/text_size_normal" />-->
+
+                    <!--                    </com.google.android.material.textfield.TextInputLayout>-->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etGuardAwarenessOfDuty"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="@dimen/margin_10dp"
+                            android:hint="Guard Awareness of duty"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llStep2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Last Night Check"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupLastNightCheck"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1LastNightCheck"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Yes" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2LastNightCheck"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="No"
+
+                                />
+                        </RadioGroup>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputLastNightCheckDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/txtLastNightCheckDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@+id/imageArrow"
+                                android:cursorVisible="false"
+                                android:drawableRight="@drawable/dropdown_fill"
+                                android:focusableInTouchMode="false"
+                                android:hint="Date"
+                                android:longClickable="false"
+                                android:paddingLeft="@dimen/margin_5dp"
+                                android:paddingTop="@dimen/margin_10dp"
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:textSize="@dimen/text_size_normal">
+
+                            </com.app.iitdelhicampus.utility.CustomEditText>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputLastNightCheckReason"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/etLastNightCheckReason"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Observation"
+                                android:imeOptions="actionNext"
+                                android:inputType="textCapSentences"
+                                android:paddingLeft="@dimen/padding_5"
+                                android:paddingTop="@dimen/margin_15dp"
+
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_normal" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Last Training Conducted"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupLastTrainingConducted"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1LastTrainingConducted"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Yes" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2LastTrainingConducted"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="No"
+
+                                />
+                        </RadioGroup>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputLastTrainingConductedDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/etLastTrainingConductedDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@+id/imageArrow"
+                                android:cursorVisible="false"
+                                android:drawableRight="@drawable/dropdown_fill"
+                                android:focusableInTouchMode="false"
+                                android:hint="Date"
+                                android:longClickable="false"
+                                android:paddingLeft="@dimen/margin_5dp"
+                                android:paddingTop="@dimen/margin_10dp"
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:textSize="@dimen/text_size_normal">
+
+                            </com.app.iitdelhicampus.utility.CustomEditText>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputLastTrainingConductedReason"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/etLastTrainingConductedReason"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Subject Covered &amp; No of Staff Attended"
+                                android:imeOptions="actionNext"
+                                android:inputType="textCapSentences"
+                                android:paddingLeft="@dimen/padding_5"
+                                android:paddingTop="@dimen/margin_15dp"
+
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_normal" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etLastInvoiceSubmitted"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Last Invoice Submitted"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapSentences"
+                            android:paddingLeft="@dimen/padding_5"
+                            android:paddingTop="@dimen/margin_15dp"
+
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_normal" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etPaymentReceivedTillWhichMonth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Payment received till which month"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapSentences"
+                            android:cursorVisible="false"
+                            android:focusableInTouchMode="false"
+                            android:longClickable="false"
+                            android:paddingLeft="@dimen/padding_5"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_normal" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etMetWhom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Met Whom"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapSentences"
+                            android:paddingLeft="@dimen/padding_5"
+                            android:paddingTop="@dimen/margin_15dp"
+
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_normal" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etAnyClientConcern"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Any client concern"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapSentences"
+                            android:paddingLeft="@dimen/padding_5"
+                            android:paddingTop="@dimen/margin_15dp"
+
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_normal" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Any Security Hazard Noticed"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupAnySecurityHazardNoticed"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1AnySecurityHazardNoticed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Yes" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2AnySecurityHazardNoticed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="No"
+
+                                />
+                        </RadioGroup>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerViewSecurityHazard"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/padding_5dp">
+
+                        </androidx.recyclerview.widget.RecyclerView>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Any incident took in place since last week"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupAnyincIdentInPlaceSinceLastWeek"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1AnyincIdentInPlaceSinceLastWeek"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Yes" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2AnyincIdentInPlaceSinceLastWeek"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="No"
+
+                                />
+                        </RadioGroup>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputAnyincIdentInPlaceSinceLastWeek"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/etAnyincIdentInPlaceSinceLastWeedDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@+id/imageArrow"
+                                android:cursorVisible="false"
+                                android:drawableRight="@drawable/dropdown_fill"
+                                android:focusableInTouchMode="false"
+                                android:hint="Date"
+                                android:longClickable="false"
+                                android:paddingLeft="@dimen/margin_5dp"
+                                android:paddingTop="@dimen/margin_10dp"
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:textSize="@dimen/text_size_normal">
+
+                            </com.app.iitdelhicampus.utility.CustomEditText>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputAnyincIdentInPlaceSinceLastWeekReason"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/etAnyincIdentInPlaceSinceLastWeekReason"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Reason"
+                                android:imeOptions="actionNext"
+                                android:inputType="textCapSentences"
+                                android:paddingLeft="@dimen/padding_5"
+                                android:paddingTop="@dimen/margin_15dp"
+
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_normal" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:orientation="vertical">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Security equipment status provided by us"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupSecurityEquipmentStatusProvidedByUs"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1SecurityEquipmentStatusProvidedByUs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Yes" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2SecurityEquipmentStatusProvidedByUs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_20dp"
+                                android:text="No"
+
+                                />
+                        </RadioGroup>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerViewSecurityEquipmentProvidedByUs"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/padding_5dp">
+
+                        </androidx.recyclerview.widget.RecyclerView>
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputSecurityEquipmentStatusProvidedByUsDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/etSecurityEquipmentStatusProvidedByUsDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toLeftOf="@+id/imageArrow"
+                                android:cursorVisible="false"
+                                android:drawableRight="@drawable/dropdown_fill"
+                                android:focusableInTouchMode="false"
+                                android:hint="Date"
+                                android:longClickable="false"
+                                android:paddingLeft="@dimen/margin_5dp"
+                                android:paddingTop="@dimen/margin_10dp"
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:textSize="@dimen/text_size_normal">
+
+                            </com.app.iitdelhicampus.utility.CustomEditText>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tvInputSecurityEquipmentStatusProvidedByUsReason"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_10dp">
+
+                            <com.app.iitdelhicampus.utility.CustomEditText
+                                android:id="@+id/etSecurityEquipmentStatusProvidedByUsReason"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="Reason"
+                                android:imeOptions="actionNext"
+                                android:inputType="textCapSentences"
+                                android:paddingLeft="@dimen/padding_5"
+                                android:paddingTop="@dimen/margin_15dp"
+
+                                android:paddingBottom="@dimen/margin_10dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_normal" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etRemark"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Remark"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapSentences"
+                            android:paddingLeft="@dimen/padding_5"
+                            android:paddingTop="@dimen/margin_15dp"
+
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_normal" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llPhotoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <com.app.iitdelhicampus.utility.CustomTextViewBold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:text="Take Photo"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/ivCamera"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/camera_icon"></ImageView>
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_marginBottom="@dimen/padding_5dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <com.app.iitdelhicampus.utility.CustomTextView
+                    android:id="@+id/tvLocationCapture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="false"
+                    android:drawablePadding="@dimen/margin_10dp"
+                    android:focusableInTouchMode="false"
+                    android:hint=""
+                    android:longClickable="false"
+                    android:paddingLeft="@dimen/margin_5dp"
+                    android:paddingTop="@dimen/margin_15dp"
+                    android:paddingRight="@dimen/margin_5dp"
+                    android:paddingBottom="@dimen/margin_10dp"
+                    android:textSize="@dimen/text_size_normal" />
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+    <com.app.iitdelhicampus.utility.CustomTextViewBold
+        android:id="@+id/tvSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin_10dp"
+        android:background="@drawable/background_rounded"
+        android:gravity="center"
+        android:padding="@dimen/margin_10dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+</RelativeLayout>

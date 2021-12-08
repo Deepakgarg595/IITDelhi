@@ -1,0 +1,65 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Holo.Light" >
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+<!--    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#33000000</item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <declare-styleable name="SpaceTabLayout">
+        <attr name="number_of_tabs">
+            <enum name="three" value="3"/>
+            <enum name="four" value="4"/>
+            <enum name="five" value="5"/>
+            <enum name="three_IconOnly" value="0"/>
+        </attr><attr name="starting_position">
+        <enum name="one" value="0"/>
+        <enum name="two" value="1"/>
+        <enum name="three" value="2"/>
+        <enum name="four" value="3"/>
+        <enum name="five" value="4"/>
+    </attr>
+        <attr format="color" name="tab_color"/>
+        <attr format="color" name="button_color"/>
+        <attr format="color" name="text_color"/>
+        <attr format="reference" name="icon_one"/>
+        <attr format="reference" name="icon_two"/>
+        <attr format="reference" name="icon_three"/>
+        <attr format="reference" name="icon_four"/>
+        <attr format="reference" name="icon_five"/>
+        <attr format="string" name="text_one"/>
+        <attr format="string" name="text_two"/>
+        <attr format="string" name="text_three"/>
+        <attr format="string" name="text_four"/>
+        <attr format="string" name="text_five"/>
+    </declare-styleable>
+    <style name="LinearLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

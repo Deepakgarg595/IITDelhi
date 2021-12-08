@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/place_autocomplete_fragment"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--android:gravity="center"-->
+    <!--android:minHeight="?attr/actionBarSize"-->
+    <!--android:textAlignment="gravity"-->
+    <!--app:layout_scrollFlags="scroll|enterAlways"-->
+    <!--android:contentInsetLeft="0dp"-->
+    <!--android:contentInsetStart="0dp"-->
+    <!--android:elevation="2dp"-->
+    <!--app:contentInsetLeft="0dp"-->
+    <!--app:contentInsetStart="0dp"-->
+    <!--app:titleTextColor="@color/colorBlack">-->
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/lnrHeader"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@color/colorPrimary"&ndash;&gt;-->
+    <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/imgBack"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_centerVertical="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginRight="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/back_arrow_icon"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:padding="@dimen/margin_10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:contentInsetEnd="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetStart="0dp"
+        android:elevation="2dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_collapseMode="pin"
+        android:background="@color/colorPrimary"
+
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rlMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:padding="@dimen/padding_8"
+                    android:tint="@color/white" />
+
+
+                <TextView
+                    android:id="@+id/txtProfileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:text="Select Location"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:padding="@dimen/padding_8"
+                    android:text="Done"
+                    android:textSize="@dimen/text_17sp"
+                    android:textColor="@color/white"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlSearchItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imgBackSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:padding="@dimen/padding_8"
+                    />
+
+
+                <EditText
+
+                    android:id="@+id/etSearchCountry"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/imgCross"
+                    android:layout_toRightOf="@+id/imgBackSearch"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:inputType="textFilter"
+                    android:padding="@dimen/margin_10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorWhite"
+
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:textSize="@dimen/text_size_regular">
+                    <!--<requestFocus ></requestFocus>-->
+                </EditText>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/etSearchCountry"
+                    android:layout_toRightOf="@+id/imgBackSearch"
+                    android:background="@color/light_gray"
+                    android:visibility="gone"></View>
+
+
+                <ImageView
+                    android:id="@+id/imgCross"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:padding="@dimen/padding_8"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rlSearchBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:background="@drawable/bg_btn_search"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/txvCurrentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ivSearchIcon"
+            android:background="@null"
+            android:drawablePadding="10dp"
+            android:gravity="start|center"
+            android:hint="Search Location"
+            android:maxLines="2"
+            android:padding="@dimen/margin_10dp"
+            android:textSize="@dimen/text_size_regular" />
+
+        <ImageView
+            android:id="@+id/ivSearchIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_10dp"
+            android:tint="@color/colorPrimary"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/listviewLocations"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:cacheColorHint="@android:color/transparent" />
+
+    <View
+        android:id="@+id/separator3"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/listviewLocations"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorGray" />
+
+    <TextView
+        android:id="@+id/txvShowLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/separator3"
+        android:background="@color/white"
+        android:drawablePadding="20dp"
+        android:maxLines="3"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="show locations"
+        android:textColor="@color/colorBlue" />
+
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/txvShowLocation"
+        android:layout_marginTop="2dp"
+
+        android:background="@color/colorGray" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/txvCurrentLocation"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/white"-->
+    <!--android:drawableLeft="@mipmap/send_your_location"-->
+    <!--android:drawablePadding="20dp"-->
+    <!--android:gravity="start|center"-->
+    <!--android:padding="10dp"-->
+    <!--android:text="My Locations"-->
+    <!--android:textColor="@color/colorBlue" />-->
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorGray" />
+
+
+
+    <FrameLayout
+        android:id="@+id/map_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_below="@id/toolbar" />
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/txvCurrentLocation"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/white"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:drawableLeft="@mipmap/send_your_location"-->
+    <!--android:drawablePadding="20dp"-->
+    <!--android:gravity="start|center"-->
+    <!--android:padding="10dp"-->
+    <!--android:text=""-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:textColor="@color/colorBlack" />-->
+    <!--<TextView-->
+    <!--android:id="@+id/etEventAddress"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@+id/separator1"-->
+    <!--android:gravity="left"-->
+    <!--android:background="@color/white"-->
+    <!--android:padding="15dp"-->
+
+    <!--/>-->
+
+    <ImageView
+        android:id="@+id/ivLocationButton"
+        android:layout_width="@dimen/width_height_location"
+        android:layout_height="@dimen/width_height_location"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp"
+        android:elevation="2dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_collapseMode="pin"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                app:tint="@color/white" />
+
+
+
+            <TextView
+                android:id="@+id/txtProfileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="Employee List"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/lldata"
+                android:layout_margin="@dimen/padding_5"
+                android:layout_height="wrap_content">
+                <com.app.iitdelhicampus.utility.CustomTextViewBold
+                    android:id="@+id/tvEmpCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences"
+                    android:padding="@dimen/padding_5"
+                    android:singleLine="true"
+                    android:textColor="@color/black_dark"
+                    android:textSize="@dimen/margin_15"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvEmpMobile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="textCapSentences"
+                        android:padding="@dimen/padding_5"
+                        android:singleLine="true"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/margin_15" />
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvEmpShift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="textCapSentences"
+                        android:padding="@dimen/padding_5"
+                        android:singleLine="true"
+                        android:textColor="@color/black_dark"
+                        android:textSize="@dimen/margin_15" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:padding="@dimen/padding_5"
+    android:layout_below="@+id/lldata"
+    android:background="@color/gray"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="@dimen/margin_30dp"
+    android:id="@+id/imgRight"
+    android:layout_centerVertical="true"
+    android:padding="@dimen/padding_5"
+    android:layout_alignParentRight="true"
+    android:layout_height="@dimen/margin_30dp"
+    app:tint="@color/black_dark">
+
+</ImageView>
+    <ImageView
+    android:layout_width="@dimen/margin_30dp"
+    android:layout_centerVertical="true"
+    android:padding="@dimen/padding_5"
+        android:id="@+id/imgLeft"
+    android:layout_alignParentLeft="true"
+    android:layout_height="@dimen/margin_30dp"
+    app:tint="@color/black_dark">
+
+</ImageView>
+
+    <TextView
+        android:id="@+id/txtMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding_5"
+        android:text="November 2021"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/text_16sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+</RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+android:id="@+id/txtTotal"
+        android:visibility="gone"
+        android:text="Total Shifts"
+        android:background="@color/gray"
+        android:layout_below="@+id/lldata"
+        android:textColor="@color/black"
+        android:padding="@dimen/padding_5"
+        android:textSize="@dimen/text_16sp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recShift"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:nestedScrollingEnabled="false"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llData">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recEmployees"
+                android:layout_width="match_parent"
+        android:nestedScrollingEnabled="false"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/recShift">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

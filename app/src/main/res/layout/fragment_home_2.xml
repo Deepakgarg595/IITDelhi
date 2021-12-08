@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/unread_notification"
+    android:orientation="vertical">
+    <!--    <androidx.core.widget.NestedScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--        <RelativeLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="220dp"-->
+        <!--            android:visibility="gone">-->
+
+        <!--            <androidx.viewpager.widget.ViewPager-->
+        <!--                android:id="@+id/viewPager"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>-->
+
+        <!--            <com.viewpagerindicator.CirclePageIndicator-->
+        <!--                android:id="@+id/indicator"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="25dp"-->
+        <!--                android:layout_alignParentBottom="true"-->
+        <!--                android:padding="@dimen/margin_10dp"-->
+        <!--                app:fillColor="@color/red_dark"-->
+        <!--                app:pageColor="@android:color/white"-->
+        <!--                app:radius="@dimen/padding_5"-->
+        <!--                app:strokeWidth="2dp" />-->
+
+        <!--        </RelativeLayout>-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/primary_blue">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingStart="32dp"
+                android:paddingLeft="32dp"
+                android:paddingEnd="32dp"
+                android:paddingRight="32dp">
+
+            </androidx.viewpager.widget.ViewPager>
+
+
+            <com.app.iitdelhicampus.utility.CustomTextView
+                android:id="@+id/tvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:padding="@dimen/margin_5dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_10sp"
+                android:translationZ="@dimen/margin_10dp">
+
+            </com.app.iitdelhicampus.utility.CustomTextView>
+
+        </FrameLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="@dimen/margin_10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/margin_10dp"
+                app:cardCornerRadius="@dimen/margin_10dp"
+                app:cardElevation="@dimen/margin_10dp">
+
+                <FrameLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="@dimen/margin_10dp"
+                    android:orientation="vertical">
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="@dimen/padding_5"
+                        android:padding="@dimen/padding_5"
+                        android:text="10 May, 2021"
+                        android:textColor="@color/black_p50"
+                        android:textSize="@dimen/text_13sp">
+
+                    </com.app.iitdelhicampus.utility.CustomTextView>
+
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvCurrentTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:padding="@dimen/padding_5"
+                        android:drawablePadding="@dimen/padding_5"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:text="10:25 PM"
+                        android:textColor="@color/black_p50"
+                        android:textSize="@dimen/text_13sp">
+
+                    </com.app.iitdelhicampus.utility.CustomTextView>
+
+
+                </FrameLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:translationZ="@dimen/margin_10dp"
+                android:background="@color/transparent"
+                android:weightSum="4">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_5dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/margin_20dp"
+                    app:cardElevation="@dimen/margin_10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#33cdb9"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/padding_5"
+                        android:paddingBottom="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Start Time"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_12sp">
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:id="@+id/tvStartTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--:--"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_13sp">
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_5dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/margin_20dp"
+                    app:cardElevation="@dimen/margin_10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#f6a551"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/padding_5"
+                        android:paddingBottom="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="End Time"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_12sp">
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:id="@+id/tvEndTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--:--"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_13sp">
+
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_5dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/margin_20dp"
+                    app:cardElevation="@dimen/margin_10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#0ba1ff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/padding_5"
+                        android:paddingBottom="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Time"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_12sp">
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+
+                        <com.app.iitdelhicampus.utility.CustomTextView
+                            android:id="@+id/tvTimer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--:--"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_13sp">
+
+
+                        </com.app.iitdelhicampus.utility.CustomTextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardCornerRadius="@dimen/margin_20dp"
+
+                        >
+
+
+                        <LinearLayout
+                            android:background="@drawable/rounded_bg_white_with_stroke"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:id="@+id/ivPlayPause"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:padding="@dimen/margin_10dp"
+                                android:textColor="@color/black_dark"
+                                android:textSize="@dimen/text_15sp"
+                                app:tint="@color/black">
+
+                            </ImageView>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvStartStop"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Click to Start"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_12sp">
+
+                    </com.app.iitdelhicampus.utility.CustomTextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            app:cardCornerRadius="@dimen/margin_10dp"
+            app:cardElevation="@dimen/margin_10dp"
+            android:layout_marginBottom="105dp"
+
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/padding_5"
+                android:layout_marginRight="@dimen/padding_5"
+                android:nestedScrollingEnabled="false">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <!--    </androidx.core.widget.NestedScrollView>-->
+    <ProgressBar
+        android:id="@+id/pBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </ProgressBar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:padding="@dimen/padding_5"
+            android:text="SOS"
+            android:textColor="@color/white"
+            android:textSize="16sp">
+
+        </TextView>
+
+    </FrameLayout>
+
+
+</FrameLayout>
+

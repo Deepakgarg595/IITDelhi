@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llParentView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.app.iitdelhicampus.utility.CustomTextView
+            android:id="@+id/txtSkill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ivTickIcon"
+            android:drawablePadding="15dp"
+            android:gravity="left"
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingRight="@dimen/margin_10dp"
+            android:paddingTop="@dimen/margin_15"
+            android:paddingBottom="@dimen/margin_15"
+            android:text="item"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_normal" />
+
+        <ImageView
+            android:id="@+id/ivTickIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:padding="@dimen/padding_5"
+            android:src="@drawable/tick_icon_red"
+            />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/padding_3"
+        android:layout_marginRight="@dimen/padding_3"
+        android:background="@color/light_gray"></View>
+
+
+</LinearLayout>

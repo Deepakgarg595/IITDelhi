@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_order"-->
+<!--            android:title="Patrolling Routes" />-->
+        <item
+            android:id="@+id/scanQRCode"
+            android:icon="@drawable/qr_scan"
+            android:title="Scan QR Code for Att." />
+<!--        <item-->
+<!--            android:id="@+id/takePhoto"-->
+<!--            android:title="Others Employee Code" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_about"-->
+<!--            android:icon="@drawable/about_us"-->
+<!--            android:title="@string/menu_about" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_term"-->
+<!--            android:icon="@drawable/terms"-->
+<!--            android:title="@string/menu_term" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_help"-->
+<!--            android:icon="@drawable/help"-->
+<!--            android:title="@string/menu_help" />-->
+
+</menu>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvSubmit"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@color/colorPrimary"
+            android:contentInsetStart="0dp"
+            android:contentInsetLeft="0dp"
+            android:elevation="3dp"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextColor="@color/white">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/margin_10dp"
+                android:visibility="visible" />
+
+            <com.app.iitdelhicampus.utility.CustomTextViewBold
+                android:id="@+id/txtHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Report Incident"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_heading"
+                android:textStyle="bold" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/llStep1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputClientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <com.app.iitdelhicampus.utility.CustomEditText
+            android:id="@+id/etClientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/imageArrow"
+            android:hint="Client Name"
+            android:text="Axis Bank"
+            android:gravity="bottom"
+            android:clickable="false"
+            android:longClickable="false"
+            android:cursorVisible="false"
+            android:paddingLeft="@dimen/margin_5dp"
+            android:paddingBottom="@dimen/margin_10dp"
+            android:textSize="@dimen/text_size_normal">
+
+        </com.app.iitdelhicampus.utility.CustomEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/axis_bank">
+
+</ImageView>
+</RelativeLayout>
+
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tvInputOtherService"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etDesignation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Designation"
+                            android:paddingLeft="@dimen/margin_5dp"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:longClickable="false"
+                            android:cursorVisible="false"
+                            android:focusableInTouchMode="false"
+                            android:paddingRight="@dimen/margin_5dp"
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:textSize="@dimen/text_size_normal" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp">
+
+                        <com.app.iitdelhicampus.utility.CustomEditText
+                            android:id="@+id/etRemark"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Remark"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapSentences"
+                            android:paddingLeft="@dimen/padding_5"
+                            android:paddingTop="@dimen/margin_15dp"
+
+                            android:paddingBottom="@dimen/margin_10dp"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_normal" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:id="@+id/llPhotoView"
+                        android:visibility="visible">
+
+                        <com.app.iitdelhicampus.utility.CustomTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:paddingTop="@dimen/margin_15dp"
+                            android:text="Take Photo"
+                            android:textSize="@dimen/text_size_normal"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/ivCamera"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/camera_icon"></ImageView>
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:layout_marginBottom="@dimen/padding_5dp">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+                    <com.app.iitdelhicampus.utility.CustomTextView
+                        android:id="@+id/tvLocationCapture"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cursorVisible="false"
+                        android:drawablePadding="@dimen/margin_10dp"
+                        android:focusableInTouchMode="false"
+                        android:hint=""
+                        android:longClickable="false"
+                        android:paddingLeft="@dimen/margin_5dp"
+                        android:paddingTop="@dimen/margin_15dp"
+                        android:paddingRight="@dimen/margin_5dp"
+                        android:paddingBottom="@dimen/margin_10dp"
+                        android:textSize="@dimen/text_size_normal" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+    <com.app.iitdelhicampus.utility.CustomTextViewBold
+        android:id="@+id/tvSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin_10dp"
+        android:background="@drawable/background_rounded"
+        android:gravity="center"
+        android:padding="@dimen/margin_10dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+</RelativeLayout>
